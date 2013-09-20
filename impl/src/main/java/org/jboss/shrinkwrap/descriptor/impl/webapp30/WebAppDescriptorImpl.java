@@ -105,6 +105,7 @@ public class WebAppDescriptorImpl extends NodeDescriptorImplBase implements Desc
       super(descriptorName);
       this.model = node;
       addDefaultNamespaces();
+      version("3.0");
    }
 
    // -------------------------------------------------------------------------------------||
