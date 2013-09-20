@@ -1,0 +1,94 @@
+package org.jboss.shrinkwrap.descriptor.api.orm10; 
+
+import java.util.ArrayList;
+import java.util.List;
+import org.jboss.shrinkwrap.descriptor.api.Child;
+import org.jboss.shrinkwrap.descriptor.api.orm10.Column;
+import org.jboss.shrinkwrap.descriptor.api.orm10.TemporalType;
+/**
+ * This interface defines the contract for the <code> version </code> xsd type 
+ * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
+ * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
+ */
+public interface Version<T> extends Child<T>
+{
+ 
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: Version ElementName: orm:column ElementType : column
+   // MaxOccurs: -  isGeneric: true   isAttribute: false isEnum: false isDataType: false
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * If not already created, a new <code>column</code> element with the given value will be created.
+    * Otherwise, the existing <code>column</code> element will be returned.
+    * @return  a new or existing instance of <code>Column<Version<T>></code> 
+    */
+   public Column<Version<T>> getOrCreateColumn();
+
+   /**
+    * Removes the <code>column</code> element 
+    * @return the current instance of <code>Version<T></code> 
+    */
+   public Version<T> removeColumn();
+
+ 
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: Version ElementName: orm:temporal-type ElementType : temporal
+   // MaxOccurs: -  isGeneric: true   isAttribute: false isEnum: true isDataType: false
+   // --------------------------------------------------------------------------------------------------------||
+   /**
+    * Sets the <code>temporal</code> element
+    * @param temporal the value for the element <code>temporal</code> 
+    * @return the current instance of <code>Version<T></code> 
+    */
+   public Version<T> temporal(TemporalType temporal);
+   /**
+    * Sets the <code>temporal</code> element
+    * @param temporal the value for the element <code>temporal</code> 
+    * @return the current instance of <code>Version<T></code> 
+    */
+   public Version<T> temporal(String temporal);
+
+   /**
+    * Returns the <code>temporal</code> element
+    * @return the value found for the element <code>temporal</code> 
+    */
+   public TemporalType getTemporal();
+
+   /**
+    * Returns the <code>temporal</code> element
+    * @return the value found for the element <code>temporal</code> 
+    */
+   public String  getTemporalAsString();
+
+   /**
+    * Removes the <code>temporal</code> attribute 
+    * @return the current instance of <code>Version<T></code> 
+    */
+   public Version<T> removeTemporal();
+
+ 
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: Version ElementName: xsd:string ElementType : name
+   // MaxOccurs: -  isGeneric: true   isAttribute: true isEnum: false isDataType: true
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * Sets the <code>name</code> attribute
+    * @param name the value for the attribute <code>name</code> 
+    * @return the current instance of <code>Version<T></code> 
+    */
+   public Version<T> name(String name);
+
+   /**
+    * Returns the <code>name</code> attribute
+    * @return the value defined for the attribute <code>name</code> 
+    */
+   public String getName();
+
+   /**
+    * Removes the <code>name</code> attribute 
+    * @return the current instance of <code>Version<T></code> 
+    */
+   public Version<T> removeName();
+}

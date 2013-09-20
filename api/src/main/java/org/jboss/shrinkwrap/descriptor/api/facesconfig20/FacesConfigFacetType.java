@@ -1,0 +1,170 @@
+package org.jboss.shrinkwrap.descriptor.api.facesconfig20; 
+
+import java.util.ArrayList;
+import java.util.List;
+import org.jboss.shrinkwrap.descriptor.api.Child;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigFacetExtensionType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigFacetExtensionType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+/**
+ * This interface defines the contract for the <code> faces-config-facetType </code> xsd type 
+ * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
+ * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
+ */
+public interface FacesConfigFacetType<T> extends Child<T>
+{
+ 
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: FacesConfigFacetType ElementName: xsd:string ElementType : description
+   // MaxOccurs: -unbounded  isGeneric: true   isAttribute: false isEnum: false isDataType: true
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * Creates for all String objects representing <code>description</code> elements, 
+    * a new <code>description</code> element 
+    * @param values list of <code>description</code> objects 
+    * @return the current instance of <code>FacesConfigFacetType<T></code> 
+    */
+   public FacesConfigFacetType<T> description(String ... values);
+
+   /**
+    * Returns all <code>description</code> elements
+    * @return list of <code>description</code> 
+    */
+   public List<String> getAllDescription();
+
+   /**
+    * Removes the <code>description</code> element 
+    * @return the current instance of <code>FacesConfigFacetType<T></code> 
+    */
+   public FacesConfigFacetType<T> removeAllDescription();
+ 
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: FacesConfigFacetType ElementName: xsd:token ElementType : display-name
+   // MaxOccurs: -unbounded  isGeneric: true   isAttribute: false isEnum: false isDataType: true
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * Creates for all String objects representing <code>display-name</code> elements, 
+    * a new <code>display-name</code> element 
+    * @param values list of <code>display-name</code> objects 
+    * @return the current instance of <code>FacesConfigFacetType<T></code> 
+    */
+   public FacesConfigFacetType<T> displayName(String ... values);
+
+   /**
+    * Returns all <code>display-name</code> elements
+    * @return list of <code>display-name</code> 
+    */
+   public List<String> getAllDisplayName();
+
+   /**
+    * Removes the <code>display-name</code> element 
+    * @return the current instance of <code>FacesConfigFacetType<T></code> 
+    */
+   public FacesConfigFacetType<T> removeAllDisplayName();
+ 
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: FacesConfigFacetType ElementName: javaee:iconType ElementType : icon
+   // MaxOccurs: -unbounded  isGeneric: true   isAttribute: false isEnum: false isDataType: false
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * If not already created, a new <code>icon</code> element will be created and returned.
+    * Otherwise, the first existing <code>icon</code> element will be returned.
+    * @return the instance defined for the element <code>icon</code> 
+    */
+   public IconType<FacesConfigFacetType<T>> getOrCreateIcon();
+
+   /**
+    * Creates a new <code>icon</code> element 
+    * @return the new created instance of <code>IconType<FacesConfigFacetType<T>></code> 
+    */
+   public IconType<FacesConfigFacetType<T>> createIcon();
+
+   /**
+    * Returns all <code>icon</code> elements
+    * @return list of <code>icon</code> 
+    */
+   public List<IconType<FacesConfigFacetType<T>>> getAllIcon();
+
+   /**
+    * Removes all <code>icon</code> elements 
+    * @return the current instance of <code>IconType<FacesConfigFacetType<T>></code> 
+    */
+   public FacesConfigFacetType<T> removeAllIcon();
+ 
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: FacesConfigFacetType ElementName: xsd:token ElementType : facet-name
+   // MaxOccurs: -  isGeneric: true   isAttribute: false isEnum: false isDataType: true
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * Sets the <code>facet-name</code> element
+    * @param facetName the value for the element <code>facet-name</code> 
+    * @return the current instance of <code>FacesConfigFacetType<T></code> 
+    */
+   public FacesConfigFacetType<T> facetName(String facetName);
+
+   /**
+    * Returns the <code>facet-name</code> element
+    * @return the node defined for the element <code>facet-name</code> 
+    */
+   public String getFacetName();
+
+   /**
+    * Removes the <code>facet-name</code> element 
+    * @return the current instance of <code>FacesConfigFacetType<T></code> 
+    */
+   public FacesConfigFacetType<T> removeFacetName();
+
+ 
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: FacesConfigFacetType ElementName: javaee:faces-config-facet-extensionType ElementType : facet-extension
+   // MaxOccurs: -unbounded  isGeneric: true   isAttribute: false isEnum: false isDataType: false
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * Sets the <code>facet-extension</code> element 
+    * @return the current instance of <code>FacesConfigFacetType<T></code> 
+    */
+   public FacesConfigFacetType<T> facetExtension();
+
+   /**
+    * Removes the <code>facet-extension</code> element 
+    * @return the current instance of <code>FacesConfigFacetType<T></code> 
+    */
+   public Boolean isFacetExtension();
+
+   /**
+    * Removes the <code>facet-extension</code> element 
+    * @return the current instance of <code>FacesConfigFacetType<T></code> 
+    */
+   public FacesConfigFacetType<T> removeFacetExtension();
+
+ 
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: FacesConfigFacetType ElementName: xsd:ID ElementType : id
+   // MaxOccurs: -  isGeneric: true   isAttribute: true isEnum: false isDataType: true
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * Sets the <code>id</code> attribute
+    * @param id the value for the attribute <code>id</code> 
+    * @return the current instance of <code>FacesConfigFacetType<T></code> 
+    */
+   public FacesConfigFacetType<T> id(String id);
+
+   /**
+    * Returns the <code>id</code> attribute
+    * @return the value defined for the attribute <code>id</code> 
+    */
+   public String getId();
+
+   /**
+    * Removes the <code>id</code> attribute 
+    * @return the current instance of <code>FacesConfigFacetType<T></code> 
+    */
+   public FacesConfigFacetType<T> removeId();
+}
