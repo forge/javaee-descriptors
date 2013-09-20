@@ -1,18 +1,16 @@
 package org.jboss.shrinkwrap.descriptor.impl.persistence21; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.persistence21.PersistenceUnit;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
+import org.jboss.shrinkwrap.descriptor.api.persistence21.PersistenceUnit;
 import org.jboss.shrinkwrap.descriptor.api.persistence21.PersistenceUnitCachingType;
+import org.jboss.shrinkwrap.descriptor.api.persistence21.PersistenceUnitTransactionType;
 import org.jboss.shrinkwrap.descriptor.api.persistence21.PersistenceUnitValidationModeType;
 import org.jboss.shrinkwrap.descriptor.api.persistence21.Properties;
-import org.jboss.shrinkwrap.descriptor.impl.persistence21.PropertiesImpl;
-import org.jboss.shrinkwrap.descriptor.api.persistence21.PersistenceUnitTransactionType;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> persistence-unit </code> xsd type 

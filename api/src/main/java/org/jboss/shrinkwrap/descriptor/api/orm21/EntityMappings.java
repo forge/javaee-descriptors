@@ -1,20 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.orm21; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm21.PersistenceUnitMetadata;
-import org.jboss.shrinkwrap.descriptor.api.orm21.AccessType;
-import org.jboss.shrinkwrap.descriptor.api.orm21.SequenceGenerator;
-import org.jboss.shrinkwrap.descriptor.api.orm21.TableGenerator;
-import org.jboss.shrinkwrap.descriptor.api.orm21.NamedQuery;
-import org.jboss.shrinkwrap.descriptor.api.orm21.NamedNativeQuery;
-import org.jboss.shrinkwrap.descriptor.api.orm21.NamedStoredProcedureQuery;
-import org.jboss.shrinkwrap.descriptor.api.orm21.SqlResultSetMapping;
-import org.jboss.shrinkwrap.descriptor.api.orm21.MappedSuperclass;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Entity;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Embeddable;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Converter;
 /**
  * This interface defines the contract for the <code> entity-mappings </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

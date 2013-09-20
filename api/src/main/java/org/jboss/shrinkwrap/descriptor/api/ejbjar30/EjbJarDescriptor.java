@@ -1,15 +1,10 @@
 package org.jboss.shrinkwrap.descriptor.api.ejbjar30; 
 
-import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.EnterpriseBeansType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.InterceptorsType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.RelationshipsType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.AssemblyDescriptorType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
 
 /** 
  * <p> 

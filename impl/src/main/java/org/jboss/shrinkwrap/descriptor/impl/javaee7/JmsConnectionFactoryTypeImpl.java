@@ -1,15 +1,13 @@
 package org.jboss.shrinkwrap.descriptor.impl.javaee7; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.JmsConnectionFactoryType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.JmsConnectionFactoryType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.PropertyType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee7.PropertyTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> jms-connection-factoryType </code> xsd type 

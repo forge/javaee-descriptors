@@ -1,9 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.webcommon31; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.webcommon31.TransportGuaranteeType;
 /**
  * This interface defines the contract for the <code> user-data-constraintType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

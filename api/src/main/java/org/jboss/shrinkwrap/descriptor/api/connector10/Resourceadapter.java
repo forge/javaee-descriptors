@@ -1,11 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.connector10; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.connector10.ConfigProperty;
-import org.jboss.shrinkwrap.descriptor.api.connector10.AuthenticationMechanism;
-import org.jboss.shrinkwrap.descriptor.api.connector10.SecurityPermission;
 /**
  * This interface defines the contract for the <code> resourceadapter </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

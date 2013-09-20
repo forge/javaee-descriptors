@@ -1,17 +1,13 @@
 package org.jboss.shrinkwrap.descriptor.impl.jsp22; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.jsp22.JspConfigType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.jsp22.TaglibType;
-import org.jboss.shrinkwrap.descriptor.impl.jsp22.TaglibTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.jsp22.JspConfigType;
 import org.jboss.shrinkwrap.descriptor.api.jsp22.JspPropertyGroupType;
-import org.jboss.shrinkwrap.descriptor.impl.jsp22.JspPropertyGroupTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.jsp22.TaglibType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> jsp-configType </code> xsd type 

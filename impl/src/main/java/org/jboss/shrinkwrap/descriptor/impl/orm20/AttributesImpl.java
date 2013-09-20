@@ -1,35 +1,22 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Attributes;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Id;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.IdImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.EmbeddedId;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.EmbeddedIdImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm20.Attributes;
 import org.jboss.shrinkwrap.descriptor.api.orm20.Basic;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.BasicImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Version;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.VersionImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.ManyToOne;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.ManyToOneImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.OneToMany;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.OneToManyImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.OneToOne;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.OneToOneImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.ManyToMany;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.ManyToManyImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm20.ElementCollection;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.ElementCollectionImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm20.Embedded;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.EmbeddedImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm20.EmbeddedId;
+import org.jboss.shrinkwrap.descriptor.api.orm20.Id;
+import org.jboss.shrinkwrap.descriptor.api.orm20.ManyToMany;
+import org.jboss.shrinkwrap.descriptor.api.orm20.ManyToOne;
+import org.jboss.shrinkwrap.descriptor.api.orm20.OneToMany;
+import org.jboss.shrinkwrap.descriptor.api.orm20.OneToOne;
 import org.jboss.shrinkwrap.descriptor.api.orm20.Transient;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.TransientImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm20.Version;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> attributes </code> xsd type 

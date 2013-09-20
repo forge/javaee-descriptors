@@ -1,38 +1,20 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm20.MappedSuperclass;
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.orm20.IdClass;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.IdClassImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.EmptyType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.EmptyTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.EmptyType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.EmptyTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.EntityListeners;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.EntityListenersImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PrePersist;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.PrePersistImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PostPersist;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.PostPersistImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PreRemove;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.PreRemoveImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PostRemove;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.PostRemoveImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PreUpdate;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.PreUpdateImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PostUpdate;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.PostUpdateImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PostLoad;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.PostLoadImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Attributes;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.AttributesImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm20.AccessType;
+import org.jboss.shrinkwrap.descriptor.api.orm20.Attributes;
+import org.jboss.shrinkwrap.descriptor.api.orm20.EntityListeners;
+import org.jboss.shrinkwrap.descriptor.api.orm20.IdClass;
+import org.jboss.shrinkwrap.descriptor.api.orm20.MappedSuperclass;
+import org.jboss.shrinkwrap.descriptor.api.orm20.PostLoad;
+import org.jboss.shrinkwrap.descriptor.api.orm20.PostPersist;
+import org.jboss.shrinkwrap.descriptor.api.orm20.PostRemove;
+import org.jboss.shrinkwrap.descriptor.api.orm20.PostUpdate;
+import org.jboss.shrinkwrap.descriptor.api.orm20.PrePersist;
+import org.jboss.shrinkwrap.descriptor.api.orm20.PreRemove;
+import org.jboss.shrinkwrap.descriptor.api.orm20.PreUpdate;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> mapped-superclass </code> xsd type 

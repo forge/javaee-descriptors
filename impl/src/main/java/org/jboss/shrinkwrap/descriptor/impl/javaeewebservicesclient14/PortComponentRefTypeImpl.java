@@ -1,17 +1,11 @@
 package org.jboss.shrinkwrap.descriptor.impl.javaeewebservicesclient14; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.PortComponentRefType;
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
 import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.AddressingType;
-import org.jboss.shrinkwrap.descriptor.impl.javaeewebservicesclient14.AddressingTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.PortComponentRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.RespectBindingType;
-import org.jboss.shrinkwrap.descriptor.impl.javaeewebservicesclient14.RespectBindingTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> port-component-refType </code> xsd type 

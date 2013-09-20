@@ -1,15 +1,12 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm10; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm10.Embedded;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
 import org.jboss.shrinkwrap.descriptor.api.orm10.AttributeOverride;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.AttributeOverrideImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm10.Embedded;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> embedded </code> xsd type 

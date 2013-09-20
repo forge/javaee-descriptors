@@ -1,29 +1,18 @@
 package org.jboss.shrinkwrap.descriptor.impl.jobXML10; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Flow;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
 import org.jboss.shrinkwrap.descriptor.api.jobXML10.Decision;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.DecisionImpl;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Flow;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.FlowImpl;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Split;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.SplitImpl;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Step;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.StepImpl;
 import org.jboss.shrinkwrap.descriptor.api.jobXML10.End;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.EndImpl;
 import org.jboss.shrinkwrap.descriptor.api.jobXML10.Fail;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.FailImpl;
+import org.jboss.shrinkwrap.descriptor.api.jobXML10.Flow;
 import org.jboss.shrinkwrap.descriptor.api.jobXML10.Next;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.NextImpl;
+import org.jboss.shrinkwrap.descriptor.api.jobXML10.Split;
+import org.jboss.shrinkwrap.descriptor.api.jobXML10.Step;
 import org.jboss.shrinkwrap.descriptor.api.jobXML10.Stop;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.StopImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> Flow </code> xsd type 

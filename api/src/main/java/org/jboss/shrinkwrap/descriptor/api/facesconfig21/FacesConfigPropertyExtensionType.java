@@ -1,7 +1,5 @@
 package org.jboss.shrinkwrap.descriptor.api.facesconfig21; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
 /**
  * This interface defines the contract for the <code> faces-config-property-extensionType </code> xsd type 

@@ -1,23 +1,16 @@
 package org.jboss.shrinkwrap.descriptor.impl.connector17; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.connector17.ResourceadapterType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.connector17.ConfigPropertyType;
-import org.jboss.shrinkwrap.descriptor.impl.connector17.ConfigPropertyTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.connector17.OutboundResourceadapterType;
-import org.jboss.shrinkwrap.descriptor.impl.connector17.OutboundResourceadapterTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.connector17.InboundResourceadapterType;
-import org.jboss.shrinkwrap.descriptor.impl.connector17.InboundResourceadapterTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.connector17.AdminobjectType;
-import org.jboss.shrinkwrap.descriptor.impl.connector17.AdminobjectTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.connector17.ConfigPropertyType;
+import org.jboss.shrinkwrap.descriptor.api.connector17.InboundResourceadapterType;
+import org.jboss.shrinkwrap.descriptor.api.connector17.OutboundResourceadapterType;
+import org.jboss.shrinkwrap.descriptor.api.connector17.ResourceadapterType;
 import org.jboss.shrinkwrap.descriptor.api.connector17.SecurityPermissionType;
-import org.jboss.shrinkwrap.descriptor.impl.connector17.SecurityPermissionTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> resourceadapterType </code> xsd type 

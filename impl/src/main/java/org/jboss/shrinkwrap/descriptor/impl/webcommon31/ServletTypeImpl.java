@@ -1,23 +1,21 @@
 package org.jboss.shrinkwrap.descriptor.impl.webcommon31; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.webcommon31.ServletType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.ParamValueType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee7.ParamValueTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.RunAsType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee7.RunAsTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.SecurityRoleRefType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee7.SecurityRoleRefTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.webcommon31.MultipartConfigType;
-import org.jboss.shrinkwrap.descriptor.impl.webcommon31.MultipartConfigTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.IconType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.ParamValueType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.RunAsType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.SecurityRoleRefType;
+import org.jboss.shrinkwrap.descriptor.api.webcommon31.MultipartConfigType;
+import org.jboss.shrinkwrap.descriptor.api.webcommon31.ServletType;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
 import org.jboss.shrinkwrap.descriptor.impl.javaee7.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee7.ParamValueTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee7.RunAsTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee7.SecurityRoleRefTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> servletType </code> xsd type 

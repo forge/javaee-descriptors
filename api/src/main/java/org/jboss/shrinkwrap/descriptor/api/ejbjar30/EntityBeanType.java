@@ -1,25 +1,19 @@
 package org.jboss.shrinkwrap.descriptor.api.ejbjar30; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.PersistenceTypeType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.CmpVersionType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.CmpFieldType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleRefType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.SecurityIdentityType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.QueryType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EnvEntryType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EjbRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.EjbLocalRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceEnvRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.EjbRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.EnvEntryType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.LifecycleCallbackType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.MessageDestinationRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.PersistenceContextRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.PersistenceUnitRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.LifecycleCallbackType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceEnvRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient12.ServiceRefType;
 /**
  * This interface defines the contract for the <code> entity-beanType </code> xsd type 

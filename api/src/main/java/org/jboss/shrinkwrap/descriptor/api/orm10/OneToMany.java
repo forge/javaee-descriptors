@@ -1,13 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.orm10; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm10.MapKey;
-import org.jboss.shrinkwrap.descriptor.api.orm10.JoinTable;
-import org.jboss.shrinkwrap.descriptor.api.orm10.JoinColumn;
-import org.jboss.shrinkwrap.descriptor.api.orm10.CascadeType;
-import org.jboss.shrinkwrap.descriptor.api.orm10.FetchType;
 /**
  * This interface defines the contract for the <code> one-to-many </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

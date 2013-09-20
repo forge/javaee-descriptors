@@ -1,21 +1,15 @@
 package org.jboss.shrinkwrap.descriptor.impl.facesconfig22; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigConverterType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
 import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigAttributeType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig22.FacesConfigAttributeTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigConverterType;
 import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigPropertyType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig22.FacesConfigPropertyTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigConverterExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig22.FacesConfigConverterExtensionTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.IconType;
 import org.jboss.shrinkwrap.descriptor.impl.javaee7.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> faces-config-converterType </code> xsd type 

@@ -1,19 +1,16 @@
 package org.jboss.shrinkwrap.descriptor.impl.connector16; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.connector16.ConnectorType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
+import org.jboss.shrinkwrap.descriptor.api.connector16.ConnectorType;
 import org.jboss.shrinkwrap.descriptor.api.connector16.LicenseType;
-import org.jboss.shrinkwrap.descriptor.impl.connector16.LicenseTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.connector16.ResourceadapterType;
-import org.jboss.shrinkwrap.descriptor.impl.connector16.ResourceadapterTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.IconType;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
 import org.jboss.shrinkwrap.descriptor.impl.javaee6.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> connectorType </code> xsd type 

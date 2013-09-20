@@ -1,19 +1,14 @@
 package org.jboss.shrinkwrap.descriptor.impl.beans11; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.beans11.Exclude;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
+import org.jboss.shrinkwrap.descriptor.api.beans11.Exclude;
 import org.jboss.shrinkwrap.descriptor.api.beans11.IfClassAvailable;
-import org.jboss.shrinkwrap.descriptor.impl.beans11.IfClassAvailableImpl;
 import org.jboss.shrinkwrap.descriptor.api.beans11.IfClassNotAvailable;
-import org.jboss.shrinkwrap.descriptor.impl.beans11.IfClassNotAvailableImpl;
 import org.jboss.shrinkwrap.descriptor.api.beans11.IfSystemProperty;
-import org.jboss.shrinkwrap.descriptor.impl.beans11.IfSystemPropertyImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> exclude </code> xsd type 

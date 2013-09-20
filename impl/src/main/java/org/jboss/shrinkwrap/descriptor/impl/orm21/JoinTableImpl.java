@@ -1,25 +1,15 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm21; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm21.JoinTable;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.orm21.JoinColumn;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.JoinColumnImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm21.ForeignKey;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.ForeignKeyImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.JoinColumn;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.JoinColumnImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.ForeignKey;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.ForeignKeyImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.UniqueConstraint;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.UniqueConstraintImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm21.Index;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.IndexImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm21.JoinColumn;
+import org.jboss.shrinkwrap.descriptor.api.orm21.JoinTable;
+import org.jboss.shrinkwrap.descriptor.api.orm21.UniqueConstraint;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> join-table </code> xsd type 

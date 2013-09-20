@@ -1,10 +1,7 @@
 package org.jboss.shrinkwrap.descriptor.api.validationConfiguration11; 
 
-import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.validationConfiguration11.ExecutableValidationType;
-import org.jboss.shrinkwrap.descriptor.api.validationConfiguration11.PropertyType;
+
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
 

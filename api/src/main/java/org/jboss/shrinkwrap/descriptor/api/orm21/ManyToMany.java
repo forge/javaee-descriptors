@@ -1,22 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.orm21; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm21.OrderColumn;
-import org.jboss.shrinkwrap.descriptor.api.orm21.MapKey;
-import org.jboss.shrinkwrap.descriptor.api.orm21.MapKeyClass;
-import org.jboss.shrinkwrap.descriptor.api.orm21.TemporalType;
-import org.jboss.shrinkwrap.descriptor.api.orm21.EnumType;
-import org.jboss.shrinkwrap.descriptor.api.orm21.AttributeOverride;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Convert;
-import org.jboss.shrinkwrap.descriptor.api.orm21.MapKeyColumn;
-import org.jboss.shrinkwrap.descriptor.api.orm21.MapKeyJoinColumn;
-import org.jboss.shrinkwrap.descriptor.api.orm21.ForeignKey;
-import org.jboss.shrinkwrap.descriptor.api.orm21.JoinTable;
-import org.jboss.shrinkwrap.descriptor.api.orm21.CascadeType;
-import org.jboss.shrinkwrap.descriptor.api.orm21.FetchType;
-import org.jboss.shrinkwrap.descriptor.api.orm21.AccessType;
 /**
  * This interface defines the contract for the <code> many-to-many </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

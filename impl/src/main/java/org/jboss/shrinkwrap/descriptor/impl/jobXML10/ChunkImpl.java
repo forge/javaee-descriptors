@@ -1,27 +1,13 @@
 package org.jboss.shrinkwrap.descriptor.impl.jobXML10; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Chunk;
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.ItemReader;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.ItemReaderImpl;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.ItemProcessor;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.ItemProcessorImpl;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.ItemWriter;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.ItemWriterImpl;
 import org.jboss.shrinkwrap.descriptor.api.jobXML10.CheckpointAlgorithm;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.CheckpointAlgorithmImpl;
+import org.jboss.shrinkwrap.descriptor.api.jobXML10.Chunk;
 import org.jboss.shrinkwrap.descriptor.api.jobXML10.ExceptionClassFilter;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.ExceptionClassFilterImpl;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.ExceptionClassFilter;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.ExceptionClassFilterImpl;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.ExceptionClassFilter;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.ExceptionClassFilterImpl;
+import org.jboss.shrinkwrap.descriptor.api.jobXML10.ItemProcessor;
+import org.jboss.shrinkwrap.descriptor.api.jobXML10.ItemReader;
+import org.jboss.shrinkwrap.descriptor.api.jobXML10.ItemWriter;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> Chunk </code> xsd type 

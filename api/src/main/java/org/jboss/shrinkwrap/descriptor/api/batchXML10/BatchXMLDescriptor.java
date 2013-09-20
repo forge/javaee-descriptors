@@ -1,9 +1,7 @@
 package org.jboss.shrinkwrap.descriptor.api.batchXML10; 
 
-import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.batchXML10.BatchArtifactRef;
+
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
 

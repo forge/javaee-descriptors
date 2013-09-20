@@ -1,23 +1,18 @@
 package org.jboss.shrinkwrap.descriptor.impl.javaeewebservicesclient14; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.ServiceRefType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.PortComponentRefType;
-import org.jboss.shrinkwrap.descriptor.impl.javaeewebservicesclient14.PortComponentRefTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.HandlerType;
-import org.jboss.shrinkwrap.descriptor.impl.javaeewebservicesclient14.HandlerTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.HandlerChainsType;
-import org.jboss.shrinkwrap.descriptor.impl.javaeewebservicesclient14.HandlerChainsTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.IconType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee7.IconTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.InjectionTargetType;
+import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.HandlerChainsType;
+import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.HandlerType;
+import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.PortComponentRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.ServiceRefType;
+import org.jboss.shrinkwrap.descriptor.impl.javaee7.IconTypeImpl;
 import org.jboss.shrinkwrap.descriptor.impl.javaee7.InjectionTargetTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> service-refType </code> xsd type 

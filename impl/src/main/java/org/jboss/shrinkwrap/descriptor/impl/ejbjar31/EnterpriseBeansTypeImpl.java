@@ -1,19 +1,14 @@
 package org.jboss.shrinkwrap.descriptor.impl.ejbjar31; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.EnterpriseBeansType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.SessionBeanType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar31.SessionBeanTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar31.EnterpriseBeansType;
 import org.jboss.shrinkwrap.descriptor.api.ejbjar31.EntityBeanType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar31.EntityBeanTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.ejbjar31.MessageDrivenBeanType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar31.MessageDrivenBeanTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar31.SessionBeanType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> enterprise-beansType </code> xsd type 

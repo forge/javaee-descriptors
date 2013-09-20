@@ -1,23 +1,17 @@
 package org.jboss.shrinkwrap.descriptor.impl.validationMapping11; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.BeanType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
+import org.jboss.shrinkwrap.descriptor.api.validationMapping11.BeanType;
 import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ClassType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.ClassTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.FieldType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.FieldTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.GetterType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.GetterTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ConstructorType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.ConstructorTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.validationMapping11.FieldType;
+import org.jboss.shrinkwrap.descriptor.api.validationMapping11.GetterType;
 import org.jboss.shrinkwrap.descriptor.api.validationMapping11.MethodType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.MethodTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> beanType </code> xsd type 

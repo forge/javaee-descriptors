@@ -1,21 +1,17 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm20.ManyToOne;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.orm20.JoinColumn;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.JoinColumnImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.JoinTable;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.JoinTableImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.CascadeType;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.CascadeTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.FetchType;
 import org.jboss.shrinkwrap.descriptor.api.orm20.AccessType;
+import org.jboss.shrinkwrap.descriptor.api.orm20.CascadeType;
+import org.jboss.shrinkwrap.descriptor.api.orm20.FetchType;
+import org.jboss.shrinkwrap.descriptor.api.orm20.JoinColumn;
+import org.jboss.shrinkwrap.descriptor.api.orm20.JoinTable;
+import org.jboss.shrinkwrap.descriptor.api.orm20.ManyToOne;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> many-to-one </code> xsd type 

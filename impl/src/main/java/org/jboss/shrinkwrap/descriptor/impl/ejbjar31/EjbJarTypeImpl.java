@@ -1,23 +1,18 @@
 package org.jboss.shrinkwrap.descriptor.impl.ejbjar31; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.EjbJarType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.EnterpriseBeansType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar31.EnterpriseBeansTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.InterceptorsType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar31.InterceptorsTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.RelationshipsType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar31.RelationshipsTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.ejbjar31.AssemblyDescriptorType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar31.AssemblyDescriptorTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar31.EjbJarType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar31.EnterpriseBeansType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar31.InterceptorsType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar31.RelationshipsType;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.IconType;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
 import org.jboss.shrinkwrap.descriptor.impl.javaee6.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> ejb-jarType </code> xsd type 

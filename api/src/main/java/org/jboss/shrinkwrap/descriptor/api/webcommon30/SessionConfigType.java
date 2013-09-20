@@ -1,10 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.webcommon30; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.webcommon30.CookieConfigType;
-import org.jboss.shrinkwrap.descriptor.api.webcommon30.TrackingModeType;
 /**
  * This interface defines the contract for the <code> session-configType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

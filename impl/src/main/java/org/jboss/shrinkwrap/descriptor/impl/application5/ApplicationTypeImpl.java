@@ -1,19 +1,16 @@
 package org.jboss.shrinkwrap.descriptor.impl.application5; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.application5.ApplicationType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
+import org.jboss.shrinkwrap.descriptor.api.application5.ApplicationType;
 import org.jboss.shrinkwrap.descriptor.api.application5.ModuleType;
-import org.jboss.shrinkwrap.descriptor.impl.application5.ModuleTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee5.SecurityRoleTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleType;
 import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee5.SecurityRoleTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> applicationType </code> xsd type 

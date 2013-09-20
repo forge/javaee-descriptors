@@ -1,33 +1,16 @@
 package org.jboss.shrinkwrap.descriptor.impl.facesconfig20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigComponentType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigFacetType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigFacetTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigAttributeType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigAttributeTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigComponentType;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigFacetType;
 import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigPropertyType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigPropertyTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigComponentExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigComponentExtensionTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
 import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigFacetType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigFacetTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigAttributeType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigAttributeTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigPropertyType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigPropertyTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigComponentExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigComponentExtensionTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> faces-config-componentType </code> xsd type 

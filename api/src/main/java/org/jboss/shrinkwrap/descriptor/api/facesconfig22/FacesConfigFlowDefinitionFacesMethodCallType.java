@@ -1,9 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.facesconfig22; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionFlowCallParameterType;
 /**
  * This interface defines the contract for the <code> faces-config-flow-definition-faces-method-callType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

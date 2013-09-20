@@ -1,7 +1,7 @@
 package org.jboss.shrinkwrap.descriptor.api.beans11; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
 /**
  * This interface defines the contract for the <code> decorators </code> xsd type 

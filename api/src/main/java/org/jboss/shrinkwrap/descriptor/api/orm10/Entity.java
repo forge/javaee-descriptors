@@ -1,33 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.orm10; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm10.Table;
-import org.jboss.shrinkwrap.descriptor.api.orm10.SecondaryTable;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PrimaryKeyJoinColumn;
-import org.jboss.shrinkwrap.descriptor.api.orm10.IdClass;
-import org.jboss.shrinkwrap.descriptor.api.orm10.Inheritance;
-import org.jboss.shrinkwrap.descriptor.api.orm10.DiscriminatorColumn;
-import org.jboss.shrinkwrap.descriptor.api.orm10.SequenceGenerator;
-import org.jboss.shrinkwrap.descriptor.api.orm10.TableGenerator;
-import org.jboss.shrinkwrap.descriptor.api.orm10.NamedQuery;
-import org.jboss.shrinkwrap.descriptor.api.orm10.NamedNativeQuery;
-import org.jboss.shrinkwrap.descriptor.api.orm10.SqlResultSetMapping;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EmptyType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EmptyType;
-import org.jboss.shrinkwrap.descriptor.api.orm10.EntityListeners;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PrePersist;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PostPersist;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PreRemove;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PostRemove;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PreUpdate;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PostUpdate;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PostLoad;
-import org.jboss.shrinkwrap.descriptor.api.orm10.AttributeOverride;
-import org.jboss.shrinkwrap.descriptor.api.orm10.AssociationOverride;
-import org.jboss.shrinkwrap.descriptor.api.orm10.Attributes;
-import org.jboss.shrinkwrap.descriptor.api.orm10.AccessType;
 /**
  * This interface defines the contract for the <code> entity </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

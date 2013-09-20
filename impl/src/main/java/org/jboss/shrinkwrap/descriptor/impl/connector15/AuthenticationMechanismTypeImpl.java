@@ -1,14 +1,12 @@
 package org.jboss.shrinkwrap.descriptor.impl.connector15; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.connector15.AuthenticationMechanismType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
+import org.jboss.shrinkwrap.descriptor.api.connector15.AuthenticationMechanismType;
 import org.jboss.shrinkwrap.descriptor.api.connector15.CredentialInterfaceType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> authentication-mechanismType </code> xsd type 

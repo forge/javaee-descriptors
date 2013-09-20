@@ -1,29 +1,15 @@
 package org.jboss.shrinkwrap.descriptor.impl.facesconfig21; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigManagedPropertyType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigMapEntriesType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigMapEntriesTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigNullValueType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigNullValueTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigListEntriesType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigListEntriesTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigManagedPropertyType;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigMapEntriesType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
 import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigMapEntriesType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigMapEntriesTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigNullValueType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigNullValueTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigListEntriesType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigListEntriesTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> faces-config-managed-propertyType </code> xsd type 

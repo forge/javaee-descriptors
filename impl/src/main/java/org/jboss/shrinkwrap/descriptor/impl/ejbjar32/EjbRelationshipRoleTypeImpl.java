@@ -1,20 +1,14 @@
 package org.jboss.shrinkwrap.descriptor.impl.ejbjar32; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.EjbRelationshipRoleType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.MultiplicityType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.EmptyType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee7.EmptyTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.RelationshipRoleSourceType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar32.RelationshipRoleSourceTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.ejbjar32.CmrFieldType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar32.CmrFieldTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.EjbRelationshipRoleType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.MultiplicityType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.RelationshipRoleSourceType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> ejb-relationship-roleType </code> xsd type 

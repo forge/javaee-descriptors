@@ -1,15 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.facesconfig21; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigRendererType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigClientBehaviorRendererType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigRenderKitExtensionType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigRendererType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigClientBehaviorRendererType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigRenderKitExtensionType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
 /**
  * This interface defines the contract for the <code> faces-config-render-kitType </code> xsd type 

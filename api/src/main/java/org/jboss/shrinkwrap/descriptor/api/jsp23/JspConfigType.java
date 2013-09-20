@@ -1,10 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.jsp23; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.jsp23.TaglibType;
-import org.jboss.shrinkwrap.descriptor.api.jsp23.JspPropertyGroupType;
 /**
  * This interface defines the contract for the <code> jsp-configType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

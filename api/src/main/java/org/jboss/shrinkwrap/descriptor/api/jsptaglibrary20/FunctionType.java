@@ -1,9 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TldExtensionType;
 import org.jboss.shrinkwrap.descriptor.api.j2ee14.IconType;
 /**
  * This interface defines the contract for the <code> functionType </code> xsd type 

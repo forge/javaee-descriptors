@@ -1,25 +1,16 @@
 package org.jboss.shrinkwrap.descriptor.impl.facespartialresponse22; 
 
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.WebFacesPartialResponseDescriptor;
 import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseChangesType;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse22.PartialResponseChangesTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseRedirectType;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse22.PartialResponseRedirectTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseErrorType;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse22.PartialResponseErrorTypeImpl;
 import java.util.Map.Entry;
 
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
-
-import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
+import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseChangesType;
+import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseErrorType;
+import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseRedirectType;
+import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.WebFacesPartialResponseDescriptor;
 import org.jboss.shrinkwrap.descriptor.spi.node.Node;
+import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
 
 /** 
  * <p> 

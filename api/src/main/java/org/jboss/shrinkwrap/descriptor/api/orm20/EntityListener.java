@@ -1,15 +1,6 @@
 package org.jboss.shrinkwrap.descriptor.api.orm20; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PrePersist;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PostPersist;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PreRemove;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PostRemove;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PreUpdate;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PostUpdate;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PostLoad;
 /**
  * This interface defines the contract for the <code> entity-listener </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

@@ -1,10 +1,10 @@
 package org.jboss.shrinkwrap.descriptor.api.webapp25; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.ParamValueType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.ParamValueType;
 /**
  * This interface defines the contract for the <code> filterType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

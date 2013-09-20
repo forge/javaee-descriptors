@@ -1,9 +1,6 @@
 package org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient13; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient13.AddressingResponsesType;
 /**
  * This interface defines the contract for the <code> addressingType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

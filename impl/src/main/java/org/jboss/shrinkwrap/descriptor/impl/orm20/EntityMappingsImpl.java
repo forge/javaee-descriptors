@@ -1,32 +1,21 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm20.EntityMappings;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PersistenceUnitMetadata;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.PersistenceUnitMetadataImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm20.AccessType;
-import org.jboss.shrinkwrap.descriptor.api.orm20.SequenceGenerator;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.SequenceGeneratorImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.TableGenerator;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.TableGeneratorImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.NamedQuery;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.NamedQueryImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.NamedNativeQuery;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.NamedNativeQueryImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.SqlResultSetMapping;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.SqlResultSetMappingImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.MappedSuperclass;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.MappedSuperclassImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Entity;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.EntityImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm20.Embeddable;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.EmbeddableImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm20.Entity;
+import org.jboss.shrinkwrap.descriptor.api.orm20.EntityMappings;
+import org.jboss.shrinkwrap.descriptor.api.orm20.MappedSuperclass;
+import org.jboss.shrinkwrap.descriptor.api.orm20.NamedNativeQuery;
+import org.jboss.shrinkwrap.descriptor.api.orm20.NamedQuery;
+import org.jboss.shrinkwrap.descriptor.api.orm20.PersistenceUnitMetadata;
+import org.jboss.shrinkwrap.descriptor.api.orm20.SequenceGenerator;
+import org.jboss.shrinkwrap.descriptor.api.orm20.SqlResultSetMapping;
+import org.jboss.shrinkwrap.descriptor.api.orm20.TableGenerator;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> entity-mappings </code> xsd type 

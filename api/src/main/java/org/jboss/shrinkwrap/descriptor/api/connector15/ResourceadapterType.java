@@ -1,13 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.connector15; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.connector15.ConfigPropertyType;
-import org.jboss.shrinkwrap.descriptor.api.connector15.OutboundResourceadapterType;
-import org.jboss.shrinkwrap.descriptor.api.connector15.InboundResourceadapterType;
-import org.jboss.shrinkwrap.descriptor.api.connector15.AdminobjectType;
-import org.jboss.shrinkwrap.descriptor.api.connector15.SecurityPermissionType;
 /**
  * This interface defines the contract for the <code> resourceadapterType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

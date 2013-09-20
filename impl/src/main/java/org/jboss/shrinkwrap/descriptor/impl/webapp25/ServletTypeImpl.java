@@ -1,21 +1,19 @@
 package org.jboss.shrinkwrap.descriptor.impl.webapp25; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.ServletType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.ParamValueType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee5.ParamValueTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.RunAsType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee5.RunAsTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleRefType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee5.SecurityRoleRefTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.ParamValueType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.RunAsType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleRefType;
+import org.jboss.shrinkwrap.descriptor.api.webapp25.ServletType;
 import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee5.ParamValueTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee5.RunAsTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee5.SecurityRoleRefTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> servletType </code> xsd type 

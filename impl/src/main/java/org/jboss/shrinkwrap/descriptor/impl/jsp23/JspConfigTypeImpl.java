@@ -1,17 +1,13 @@
 package org.jboss.shrinkwrap.descriptor.impl.jsp23; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.jsp23.JspConfigType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.jsp23.TaglibType;
-import org.jboss.shrinkwrap.descriptor.impl.jsp23.TaglibTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.jsp23.JspConfigType;
 import org.jboss.shrinkwrap.descriptor.api.jsp23.JspPropertyGroupType;
-import org.jboss.shrinkwrap.descriptor.impl.jsp23.JspPropertyGroupTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.jsp23.TaglibType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> jsp-configType </code> xsd type 

@@ -1,9 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.ejbjar30; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EmptyType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.RunAsType;
 /**
  * This interface defines the contract for the <code> security-identityType </code> xsd type 

@@ -1,12 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.persistence20; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.persistence20.PersistenceUnitCachingType;
-import org.jboss.shrinkwrap.descriptor.api.persistence20.PersistenceUnitValidationModeType;
-import org.jboss.shrinkwrap.descriptor.api.persistence20.Properties;
-import org.jboss.shrinkwrap.descriptor.api.persistence20.PersistenceUnitTransactionType;
 /**
  * This interface defines the contract for the <code> persistence-unit </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

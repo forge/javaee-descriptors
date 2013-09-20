@@ -1,33 +1,15 @@
 package org.jboss.shrinkwrap.descriptor.impl.facesconfig21; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigApplicationType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigSystemEventListenerType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigSystemEventListenerTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigLocaleConfigType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigLocaleConfigTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigApplicationResourceBundleType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigApplicationResourceBundleTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigApplicationExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigApplicationExtensionTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigApplicationType;
 import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigDefaultValidatorsType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigDefaultValidatorsTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigSystemEventListenerType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigSystemEventListenerTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigLocaleConfigType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigLocaleConfigTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigApplicationResourceBundleType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigApplicationResourceBundleTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigApplicationExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigApplicationExtensionTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigDefaultValidatorsType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigDefaultValidatorsTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigSystemEventListenerType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> faces-config-applicationType </code> xsd type 

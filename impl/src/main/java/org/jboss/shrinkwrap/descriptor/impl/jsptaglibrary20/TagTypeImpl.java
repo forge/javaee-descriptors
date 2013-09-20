@@ -1,23 +1,18 @@
 package org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TagType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.BodyContentType;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.VariableType;
-import org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary20.VariableTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TldAttributeType;
-import org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary20.TldAttributeTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.j2ee14.GenericBooleanType;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TldExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary20.TldExtensionTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.j2ee14.IconType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.BodyContentType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TagType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TldAttributeType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TldExtensionType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.VariableType;
 import org.jboss.shrinkwrap.descriptor.impl.j2ee14.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> tagType </code> xsd type 

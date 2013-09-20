@@ -1,27 +1,15 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm10; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm10.EntityListener;
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PrePersist;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.PrePersistImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PostPersist;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.PostPersistImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PreRemove;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.PreRemoveImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PostRemove;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.PostRemoveImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PreUpdate;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.PreUpdateImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PostUpdate;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.PostUpdateImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm10.EntityListener;
 import org.jboss.shrinkwrap.descriptor.api.orm10.PostLoad;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.PostLoadImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm10.PostPersist;
+import org.jboss.shrinkwrap.descriptor.api.orm10.PostRemove;
+import org.jboss.shrinkwrap.descriptor.api.orm10.PostUpdate;
+import org.jboss.shrinkwrap.descriptor.api.orm10.PrePersist;
+import org.jboss.shrinkwrap.descriptor.api.orm10.PreRemove;
+import org.jboss.shrinkwrap.descriptor.api.orm10.PreUpdate;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> entity-listener </code> xsd type 

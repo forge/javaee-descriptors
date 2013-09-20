@@ -1,9 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.validationConfiguration11; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.validationConfiguration11.ExecutableType;
 /**
  * This interface defines the contract for the <code> default-validated-executable-typesType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

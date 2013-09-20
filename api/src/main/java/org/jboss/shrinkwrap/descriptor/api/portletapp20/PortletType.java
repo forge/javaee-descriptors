@@ -1,16 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.portletapp20; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.InitParamType;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.SupportsType;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletInfoType;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletPreferencesType;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.SecurityRoleRefType;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.EventDefinitionReferenceType;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.EventDefinitionReferenceType;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.ContainerRuntimeOptionType;
 /**
  * This interface defines the contract for the <code> portletType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

@@ -1,38 +1,24 @@
 package org.jboss.shrinkwrap.descriptor.api.webapp25; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EmptyType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.ParamValueType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.FilterType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.FilterMappingType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.ListenerType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.ServletType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.ServletMappingType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.SessionConfigType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.MimeMappingType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.WelcomeFileListType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.ErrorPageType;
-import org.jboss.shrinkwrap.descriptor.api.jsp21.JspConfigType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.SecurityConstraintType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.LoginConfigType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.MessageDestinationType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.LocaleEncodingMappingListType;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.WebAppVersionType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EnvEntryType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EjbRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.EjbLocalRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceEnvRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.EjbRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.EnvEntryType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.LifecycleCallbackType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.ListenerType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.MessageDestinationRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.MessageDestinationType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.ParamValueType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.PersistenceContextRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.PersistenceUnitRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.LifecycleCallbackType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceEnvRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleType;
 import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient12.ServiceRefType;
+import org.jboss.shrinkwrap.descriptor.api.jsp21.JspConfigType;
 /**
  * This interface defines the contract for the <code> web-appType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

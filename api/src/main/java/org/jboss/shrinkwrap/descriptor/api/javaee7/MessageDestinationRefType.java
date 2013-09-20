@@ -1,10 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.javaee7; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.MessageDestinationUsageType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.InjectionTargetType;
 /**
  * This interface defines the contract for the <code> message-destination-refType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

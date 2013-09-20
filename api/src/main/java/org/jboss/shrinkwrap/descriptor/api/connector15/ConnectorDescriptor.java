@@ -1,13 +1,10 @@
 package org.jboss.shrinkwrap.descriptor.api.connector15; 
 
-import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.connector15.LicenseType;
-import org.jboss.shrinkwrap.descriptor.api.connector15.ResourceadapterType;
-import org.jboss.shrinkwrap.descriptor.api.j2ee14.IconType;
+
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
+import org.jboss.shrinkwrap.descriptor.api.j2ee14.IconType;
 
 /** 
  * <p> 

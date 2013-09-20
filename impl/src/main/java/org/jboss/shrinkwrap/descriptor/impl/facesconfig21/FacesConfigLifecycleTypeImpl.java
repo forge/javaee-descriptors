@@ -1,17 +1,11 @@
 package org.jboss.shrinkwrap.descriptor.impl.facesconfig21; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigLifecycleType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigLifecycleExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigLifecycleExtensionTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigLifecycleExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig21.FacesConfigLifecycleExtensionTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigLifecycleType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> faces-config-lifecycleType </code> xsd type 

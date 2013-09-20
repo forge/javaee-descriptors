@@ -1,45 +1,35 @@
 package org.jboss.shrinkwrap.descriptor.impl.ejbjar31; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.InterceptorType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
 import org.jboss.shrinkwrap.descriptor.api.ejbjar31.AroundInvokeType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar31.AroundInvokeTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.ejbjar31.AroundTimeoutType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar31.AroundTimeoutTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.LifecycleCallbackTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.LifecycleCallbackTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.EnvEntryType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.EnvEntryTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.EjbRefType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.EjbRefTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.EjbLocalRefType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.EjbLocalRefTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.ResourceRefType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.ResourceRefTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.ResourceEnvRefType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.ResourceEnvRefTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.MessageDestinationRefType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.MessageDestinationRefTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.PersistenceContextRefType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.PersistenceContextRefTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.PersistenceUnitRefType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.PersistenceUnitRefTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.LifecycleCallbackTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.LifecycleCallbackTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar31.InterceptorType;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.DataSourceType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.DataSourceTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.EjbLocalRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.EjbRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.EnvEntryType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.LifecycleCallbackType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.MessageDestinationRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.PersistenceContextRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.PersistenceUnitRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.ResourceEnvRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.ResourceRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient13.ServiceRefType;
+import org.jboss.shrinkwrap.descriptor.impl.javaee6.DataSourceTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee6.EjbLocalRefTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee6.EjbRefTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee6.EnvEntryTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee6.LifecycleCallbackTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee6.MessageDestinationRefTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee6.PersistenceContextRefTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee6.PersistenceUnitRefTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee6.ResourceEnvRefTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee6.ResourceRefTypeImpl;
 import org.jboss.shrinkwrap.descriptor.impl.javaeewebservicesclient13.ServiceRefTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> interceptorType </code> xsd type 

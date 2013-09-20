@@ -1,17 +1,13 @@
 package org.jboss.shrinkwrap.descriptor.impl.facelettaglibrary20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagValidatorType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagValidatorExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facelettaglibrary20.FaceletTaglibTagValidatorExtensionTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagValidatorType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
 import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> facelet-taglib-tag-validatorType </code> xsd type 

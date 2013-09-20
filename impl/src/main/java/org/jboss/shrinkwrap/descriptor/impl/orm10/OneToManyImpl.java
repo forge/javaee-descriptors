@@ -1,22 +1,16 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm10; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm10.OneToMany;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.orm10.MapKey;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.MapKeyImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.JoinTable;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.JoinTableImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.JoinColumn;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.JoinColumnImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm10.CascadeType;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.CascadeTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm10.FetchType;
+import org.jboss.shrinkwrap.descriptor.api.orm10.JoinColumn;
+import org.jboss.shrinkwrap.descriptor.api.orm10.JoinTable;
+import org.jboss.shrinkwrap.descriptor.api.orm10.MapKey;
+import org.jboss.shrinkwrap.descriptor.api.orm10.OneToMany;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> one-to-many </code> xsd type 

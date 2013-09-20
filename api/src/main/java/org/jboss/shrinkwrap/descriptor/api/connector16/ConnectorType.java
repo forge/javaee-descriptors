@@ -1,10 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.connector16; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.connector16.LicenseType;
-import org.jboss.shrinkwrap.descriptor.api.connector16.ResourceadapterType;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.IconType;
 /**
  * This interface defines the contract for the <code> connectorType </code> xsd type 

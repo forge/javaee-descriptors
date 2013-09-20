@@ -1,27 +1,18 @@
 package org.jboss.shrinkwrap.descriptor.impl.facelettaglibrary20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagBehaviorType;
-import org.jboss.shrinkwrap.descriptor.impl.facelettaglibrary20.FaceletTaglibTagBehaviorTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagComponentType;
-import org.jboss.shrinkwrap.descriptor.impl.facelettaglibrary20.FaceletTaglibTagComponentTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagConverterType;
-import org.jboss.shrinkwrap.descriptor.impl.facelettaglibrary20.FaceletTaglibTagConverterTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagValidatorType;
-import org.jboss.shrinkwrap.descriptor.impl.facelettaglibrary20.FaceletTaglibTagValidatorTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagAttributeType;
-import org.jboss.shrinkwrap.descriptor.impl.facelettaglibrary20.FaceletTaglibTagAttributeTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facelettaglibrary20.FaceletTaglibTagExtensionTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagBehaviorType;
+import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagComponentType;
+import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagConverterType;
+import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagType;
+import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagValidatorType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
 import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> facelet-taglib-tagType </code> xsd type 

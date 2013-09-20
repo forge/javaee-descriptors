@@ -1,17 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.facesconfig20; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigManagedPropertyType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigMapEntriesType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigListEntriesType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigManagedBeanExtensionType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigManagedPropertyType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigMapEntriesType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigListEntriesType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigManagedBeanExtensionType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
 /**
  * This interface defines the contract for the <code> faces-config-managed-beanType </code> xsd type 

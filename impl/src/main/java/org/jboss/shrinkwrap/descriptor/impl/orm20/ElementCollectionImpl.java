@@ -1,41 +1,24 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm20.ElementCollection;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.orm20.OrderColumn;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.OrderColumnImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.MapKey;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.MapKeyImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyClass;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.MapKeyClassImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.TemporalType;
-import org.jboss.shrinkwrap.descriptor.api.orm20.EnumType;
-import org.jboss.shrinkwrap.descriptor.api.orm20.AttributeOverride;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.AttributeOverrideImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyColumn;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.MapKeyColumnImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyJoinColumn;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.MapKeyJoinColumnImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Column;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.ColumnImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.TemporalType;
-import org.jboss.shrinkwrap.descriptor.api.orm20.EnumType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.EmptyType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.EmptyTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.AttributeOverride;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.AttributeOverrideImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.AssociationOverride;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.AssociationOverrideImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.CollectionTable;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.CollectionTableImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.FetchType;
 import org.jboss.shrinkwrap.descriptor.api.orm20.AccessType;
+import org.jboss.shrinkwrap.descriptor.api.orm20.AssociationOverride;
+import org.jboss.shrinkwrap.descriptor.api.orm20.AttributeOverride;
+import org.jboss.shrinkwrap.descriptor.api.orm20.CollectionTable;
+import org.jboss.shrinkwrap.descriptor.api.orm20.Column;
+import org.jboss.shrinkwrap.descriptor.api.orm20.ElementCollection;
+import org.jboss.shrinkwrap.descriptor.api.orm20.EnumType;
+import org.jboss.shrinkwrap.descriptor.api.orm20.FetchType;
+import org.jboss.shrinkwrap.descriptor.api.orm20.MapKey;
+import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyClass;
+import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyColumn;
+import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyJoinColumn;
+import org.jboss.shrinkwrap.descriptor.api.orm20.OrderColumn;
+import org.jboss.shrinkwrap.descriptor.api.orm20.TemporalType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> element-collection </code> xsd type 

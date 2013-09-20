@@ -1,19 +1,11 @@
 package org.jboss.shrinkwrap.descriptor.impl.beans10; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.beans10.Beans;
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.beans10.Interceptors;
-import org.jboss.shrinkwrap.descriptor.impl.beans10.InterceptorsImpl;
-import org.jboss.shrinkwrap.descriptor.api.beans10.Decorators;
-import org.jboss.shrinkwrap.descriptor.impl.beans10.DecoratorsImpl;
 import org.jboss.shrinkwrap.descriptor.api.beans10.Alternatives;
-import org.jboss.shrinkwrap.descriptor.impl.beans10.AlternativesImpl;
+import org.jboss.shrinkwrap.descriptor.api.beans10.Beans;
+import org.jboss.shrinkwrap.descriptor.api.beans10.Decorators;
+import org.jboss.shrinkwrap.descriptor.api.beans10.Interceptors;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> beans </code> xsd type 

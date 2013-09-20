@@ -1,23 +1,15 @@
 package org.jboss.shrinkwrap.descriptor.impl.facespartialresponse20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseChangesType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseUpdateType;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse20.PartialResponseUpdateTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseInsertType;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse20.PartialResponseInsertTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseDeleteType;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse20.PartialResponseDeleteTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseAttributesType;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse20.PartialResponseAttributesTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse20.PartialResponseExtensionTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseChangesType;
+import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseDeleteType;
+import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseInsertType;
+import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseUpdateType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> partial-response-changesType </code> xsd type 

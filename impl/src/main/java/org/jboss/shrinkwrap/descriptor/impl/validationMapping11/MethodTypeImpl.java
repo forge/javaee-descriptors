@@ -1,19 +1,15 @@
 package org.jboss.shrinkwrap.descriptor.impl.validationMapping11; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.MethodType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ParameterType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.ParameterTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.validationMapping11.CrossParameterType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.CrossParameterTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.validationMapping11.MethodType;
+import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ParameterType;
 import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ReturnValueType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.ReturnValueTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> methodType </code> xsd type 

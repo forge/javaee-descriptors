@@ -1,12 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.facelettaglibrary22; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary22.FaceletTaglibTagType;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary22.FaceletTaglibFunctionType;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary22.FaceletTaglibExtensionType;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary22.FaceletTaglibVersionType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.IconType;
 /**
  * This interface defines the contract for the <code> facelet-taglibType </code> xsd type 

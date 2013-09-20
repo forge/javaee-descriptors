@@ -1,29 +1,15 @@
 package org.jboss.shrinkwrap.descriptor.impl.facesconfig20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigRenderKitType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigRendererType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigRendererTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigClientBehaviorRendererType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigClientBehaviorRendererTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigRenderKitExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigRenderKitExtensionTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigRenderKitType;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigRendererType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
 import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigRendererType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigRendererTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigClientBehaviorRendererType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigClientBehaviorRendererTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigRenderKitExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig20.FacesConfigRenderKitExtensionTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> faces-config-render-kitType </code> xsd type 

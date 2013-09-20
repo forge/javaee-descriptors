@@ -1,15 +1,12 @@
 package org.jboss.shrinkwrap.descriptor.impl.facespartialresponse20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseAttributesType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
 import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.Attribute;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse20.AttributeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facespartialresponse20.PartialResponseAttributesType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> partial-response-attributesType </code> xsd type 

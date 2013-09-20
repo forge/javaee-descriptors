@@ -1,11 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.PortComponentRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.HandlerType;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.HandlerChainsType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.IconType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.InjectionTargetType;
 /**

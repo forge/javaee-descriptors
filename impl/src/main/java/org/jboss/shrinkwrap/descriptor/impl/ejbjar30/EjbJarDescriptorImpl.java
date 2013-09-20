@@ -1,29 +1,20 @@
 package org.jboss.shrinkwrap.descriptor.impl.ejbjar30; 
 
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.EjbJarDescriptor;
 import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.EnterpriseBeansType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar30.EnterpriseBeansTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.InterceptorsType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar30.InterceptorsTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.RelationshipsType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar30.RelationshipsTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.AssemblyDescriptorType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar30.AssemblyDescriptorTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
 import java.util.Map.Entry;
 
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
-
-import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar30.AssemblyDescriptorType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar30.EjbJarDescriptor;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar30.EnterpriseBeansType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar30.InterceptorsType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar30.RelationshipsType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
+import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
 import org.jboss.shrinkwrap.descriptor.spi.node.Node;
+import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
 
 /** 
  * <p> 

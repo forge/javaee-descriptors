@@ -1,14 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagBehaviorType;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagComponentType;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagConverterType;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagValidatorType;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagAttributeType;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagExtensionType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
 /**
  * This interface defines the contract for the <code> facelet-taglib-tagType </code> xsd type 

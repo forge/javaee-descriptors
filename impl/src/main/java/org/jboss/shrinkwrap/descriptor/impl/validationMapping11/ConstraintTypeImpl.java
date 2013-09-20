@@ -1,19 +1,14 @@
 package org.jboss.shrinkwrap.descriptor.impl.validationMapping11; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ConstraintType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.GroupsType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.GroupsTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.PayloadType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.PayloadTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ConstraintType;
 import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ElementType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.ElementTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.validationMapping11.GroupsType;
+import org.jboss.shrinkwrap.descriptor.api.validationMapping11.PayloadType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> constraintType </code> xsd type 

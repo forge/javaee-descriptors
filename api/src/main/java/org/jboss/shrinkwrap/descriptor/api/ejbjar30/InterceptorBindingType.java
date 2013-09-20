@@ -1,10 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.ejbjar30; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.InterceptorOrderType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.NamedMethodType;
 /**
  * This interface defines the contract for the <code> interceptor-bindingType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

@@ -1,17 +1,14 @@
 package org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.FunctionType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TldExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary20.TldExtensionTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.j2ee14.IconType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.FunctionType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TldExtensionType;
 import org.jboss.shrinkwrap.descriptor.impl.j2ee14.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> functionType </code> xsd type 

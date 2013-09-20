@@ -1,7 +1,7 @@
 package org.jboss.shrinkwrap.descriptor.api.jsp22; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.IconType;
 /**

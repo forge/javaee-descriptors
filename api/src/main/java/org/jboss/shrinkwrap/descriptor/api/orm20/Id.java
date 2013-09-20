@@ -1,14 +1,6 @@
 package org.jboss.shrinkwrap.descriptor.api.orm20; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Column;
-import org.jboss.shrinkwrap.descriptor.api.orm20.GeneratedValue;
-import org.jboss.shrinkwrap.descriptor.api.orm20.TemporalType;
-import org.jboss.shrinkwrap.descriptor.api.orm20.TableGenerator;
-import org.jboss.shrinkwrap.descriptor.api.orm20.SequenceGenerator;
-import org.jboss.shrinkwrap.descriptor.api.orm20.AccessType;
 /**
  * This interface defines the contract for the <code> id </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

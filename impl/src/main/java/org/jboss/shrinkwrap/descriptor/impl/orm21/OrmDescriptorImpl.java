@@ -1,42 +1,25 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm21; 
 
-import org.jboss.shrinkwrap.descriptor.api.orm21.OrmDescriptor;
 import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.orm21.PersistenceUnitMetadata;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.PersistenceUnitMetadataImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.AccessType;
-import org.jboss.shrinkwrap.descriptor.api.orm21.SequenceGenerator;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.SequenceGeneratorImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.TableGenerator;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.TableGeneratorImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.NamedQuery;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.NamedQueryImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.NamedNativeQuery;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.NamedNativeQueryImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.NamedStoredProcedureQuery;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.NamedStoredProcedureQueryImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.SqlResultSetMapping;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.SqlResultSetMappingImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.MappedSuperclass;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.MappedSuperclassImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Entity;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.EntityImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Embeddable;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.EmbeddableImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Converter;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.ConverterImpl;
 import java.util.Map.Entry;
 
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
-
-import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
+import org.jboss.shrinkwrap.descriptor.api.orm21.AccessType;
+import org.jboss.shrinkwrap.descriptor.api.orm21.Converter;
+import org.jboss.shrinkwrap.descriptor.api.orm21.Embeddable;
+import org.jboss.shrinkwrap.descriptor.api.orm21.Entity;
+import org.jboss.shrinkwrap.descriptor.api.orm21.MappedSuperclass;
+import org.jboss.shrinkwrap.descriptor.api.orm21.NamedNativeQuery;
+import org.jboss.shrinkwrap.descriptor.api.orm21.NamedQuery;
+import org.jboss.shrinkwrap.descriptor.api.orm21.NamedStoredProcedureQuery;
+import org.jboss.shrinkwrap.descriptor.api.orm21.OrmDescriptor;
+import org.jboss.shrinkwrap.descriptor.api.orm21.PersistenceUnitMetadata;
+import org.jboss.shrinkwrap.descriptor.api.orm21.SequenceGenerator;
+import org.jboss.shrinkwrap.descriptor.api.orm21.SqlResultSetMapping;
+import org.jboss.shrinkwrap.descriptor.api.orm21.TableGenerator;
 import org.jboss.shrinkwrap.descriptor.spi.node.Node;
+import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
 
 /** 
  * <p> 

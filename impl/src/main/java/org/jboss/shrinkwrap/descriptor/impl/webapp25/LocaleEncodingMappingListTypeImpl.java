@@ -1,15 +1,12 @@
 package org.jboss.shrinkwrap.descriptor.impl.webapp25; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.webapp25.LocaleEncodingMappingListType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
+import org.jboss.shrinkwrap.descriptor.api.webapp25.LocaleEncodingMappingListType;
 import org.jboss.shrinkwrap.descriptor.api.webapp25.LocaleEncodingMappingType;
-import org.jboss.shrinkwrap.descriptor.impl.webapp25.LocaleEncodingMappingTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> locale-encoding-mapping-listType </code> xsd type 

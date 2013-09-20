@@ -1,11 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.validationMapping11; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ParameterType;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.CrossParameterType;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ReturnValueType;
 /**
  * This interface defines the contract for the <code> constructorType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

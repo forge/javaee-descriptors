@@ -1,15 +1,12 @@
 package org.jboss.shrinkwrap.descriptor.impl.javaeewebservicesclient13; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient13.HandlerChainType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
+import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient13.HandlerChainType;
 import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient13.HandlerType;
-import org.jboss.shrinkwrap.descriptor.impl.javaeewebservicesclient13.HandlerTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> handler-chainType </code> xsd type 

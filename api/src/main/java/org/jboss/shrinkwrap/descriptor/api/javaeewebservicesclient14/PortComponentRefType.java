@@ -1,10 +1,6 @@
 package org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.AddressingType;
-import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.RespectBindingType;
 /**
  * This interface defines the contract for the <code> port-component-refType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

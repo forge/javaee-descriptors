@@ -1,17 +1,14 @@
 package org.jboss.shrinkwrap.descriptor.impl.javaee6; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.ResourceRefType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.InjectionTargetType;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.ResAuthType;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.ResSharingScopeType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.InjectionTargetType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee6.InjectionTargetTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.ResourceRefType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> resource-refType </code> xsd type 

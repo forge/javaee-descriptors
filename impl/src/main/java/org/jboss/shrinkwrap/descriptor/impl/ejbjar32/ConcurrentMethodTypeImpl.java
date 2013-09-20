@@ -1,18 +1,11 @@
 package org.jboss.shrinkwrap.descriptor.impl.ejbjar32; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ConcurrentMethodType;
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.NamedMethodType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar32.NamedMethodTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ConcurrentLockTypeType;
 import org.jboss.shrinkwrap.descriptor.api.ejbjar32.AccessTimeoutType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar32.AccessTimeoutTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ConcurrentLockTypeType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ConcurrentMethodType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.NamedMethodType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> concurrent-methodType </code> xsd type 

@@ -1,33 +1,21 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm10; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm10.Attributes;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.orm10.Id;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.IdImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.EmbeddedId;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.EmbeddedIdImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm10.Attributes;
 import org.jboss.shrinkwrap.descriptor.api.orm10.Basic;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.BasicImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.Version;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.VersionImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.ManyToOne;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.ManyToOneImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.OneToMany;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.OneToManyImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.OneToOne;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.OneToOneImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.ManyToMany;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.ManyToManyImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm10.Embedded;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.EmbeddedImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm10.EmbeddedId;
+import org.jboss.shrinkwrap.descriptor.api.orm10.Id;
+import org.jboss.shrinkwrap.descriptor.api.orm10.ManyToMany;
+import org.jboss.shrinkwrap.descriptor.api.orm10.ManyToOne;
+import org.jboss.shrinkwrap.descriptor.api.orm10.OneToMany;
+import org.jboss.shrinkwrap.descriptor.api.orm10.OneToOne;
 import org.jboss.shrinkwrap.descriptor.api.orm10.Transient;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.TransientImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm10.Version;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> attributes </code> xsd type 

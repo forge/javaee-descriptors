@@ -1,15 +1,10 @@
 package org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.ValidatorType;
-import org.jboss.shrinkwrap.descriptor.api.j2ee14.ListenerType;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TagType;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TagFileType;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.FunctionType;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary20.TldExtensionType;
 import org.jboss.shrinkwrap.descriptor.api.j2ee14.IconType;
+import org.jboss.shrinkwrap.descriptor.api.j2ee14.ListenerType;
 /**
  * This interface defines the contract for the <code> tldTaglibType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

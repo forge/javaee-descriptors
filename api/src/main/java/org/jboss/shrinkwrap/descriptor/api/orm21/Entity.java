@@ -1,37 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.orm21; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Table;
-import org.jboss.shrinkwrap.descriptor.api.orm21.SecondaryTable;
-import org.jboss.shrinkwrap.descriptor.api.orm21.PrimaryKeyJoinColumn;
-import org.jboss.shrinkwrap.descriptor.api.orm21.ForeignKey;
-import org.jboss.shrinkwrap.descriptor.api.orm21.IdClass;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Inheritance;
-import org.jboss.shrinkwrap.descriptor.api.orm21.DiscriminatorColumn;
-import org.jboss.shrinkwrap.descriptor.api.orm21.SequenceGenerator;
-import org.jboss.shrinkwrap.descriptor.api.orm21.TableGenerator;
-import org.jboss.shrinkwrap.descriptor.api.orm21.NamedQuery;
-import org.jboss.shrinkwrap.descriptor.api.orm21.NamedNativeQuery;
-import org.jboss.shrinkwrap.descriptor.api.orm21.NamedStoredProcedureQuery;
-import org.jboss.shrinkwrap.descriptor.api.orm21.SqlResultSetMapping;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.EmptyType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.EmptyType;
-import org.jboss.shrinkwrap.descriptor.api.orm21.EntityListeners;
-import org.jboss.shrinkwrap.descriptor.api.orm21.PrePersist;
-import org.jboss.shrinkwrap.descriptor.api.orm21.PostPersist;
-import org.jboss.shrinkwrap.descriptor.api.orm21.PreRemove;
-import org.jboss.shrinkwrap.descriptor.api.orm21.PostRemove;
-import org.jboss.shrinkwrap.descriptor.api.orm21.PreUpdate;
-import org.jboss.shrinkwrap.descriptor.api.orm21.PostUpdate;
-import org.jboss.shrinkwrap.descriptor.api.orm21.PostLoad;
-import org.jboss.shrinkwrap.descriptor.api.orm21.AttributeOverride;
-import org.jboss.shrinkwrap.descriptor.api.orm21.AssociationOverride;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Convert;
-import org.jboss.shrinkwrap.descriptor.api.orm21.NamedEntityGraph;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Attributes;
-import org.jboss.shrinkwrap.descriptor.api.orm21.AccessType;
 /**
  * This interface defines the contract for the <code> entity </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

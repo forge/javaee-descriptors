@@ -1,11 +1,6 @@
 package org.jboss.shrinkwrap.descriptor.api.beans10; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.beans10.Interceptors;
-import org.jboss.shrinkwrap.descriptor.api.beans10.Decorators;
-import org.jboss.shrinkwrap.descriptor.api.beans10.Alternatives;
 /**
  * This interface defines the contract for the <code> beans </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

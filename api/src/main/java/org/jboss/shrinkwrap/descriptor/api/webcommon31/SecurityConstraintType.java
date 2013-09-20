@@ -1,11 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.webcommon31; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.webcommon31.WebResourceCollectionType;
-import org.jboss.shrinkwrap.descriptor.api.webcommon31.AuthConstraintType;
-import org.jboss.shrinkwrap.descriptor.api.webcommon31.UserDataConstraintType;
 /**
  * This interface defines the contract for the <code> security-constraintType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

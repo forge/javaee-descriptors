@@ -1,11 +1,6 @@
 package org.jboss.shrinkwrap.descriptor.api.orm10; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm10.AccessType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EmptyType;
-import org.jboss.shrinkwrap.descriptor.api.orm10.EntityListeners;
 /**
  * This interface defines the contract for the <code> persistence-unit-defaults </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

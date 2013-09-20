@@ -1,18 +1,15 @@
 package org.jboss.shrinkwrap.descriptor.impl.connector16; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.connector16.OutboundResourceadapterType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.connector16.ConnectionDefinitionType;
-import org.jboss.shrinkwrap.descriptor.impl.connector16.ConnectionDefinitionTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.connector16.TransactionSupportType;
 import org.jboss.shrinkwrap.descriptor.api.connector16.AuthenticationMechanismType;
-import org.jboss.shrinkwrap.descriptor.impl.connector16.AuthenticationMechanismTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.connector16.ConnectionDefinitionType;
+import org.jboss.shrinkwrap.descriptor.api.connector16.OutboundResourceadapterType;
+import org.jboss.shrinkwrap.descriptor.api.connector16.TransactionSupportType;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> outbound-resourceadapterType </code> xsd type 

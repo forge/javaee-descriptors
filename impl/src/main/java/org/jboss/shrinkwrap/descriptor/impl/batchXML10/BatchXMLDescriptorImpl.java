@@ -1,21 +1,14 @@
 package org.jboss.shrinkwrap.descriptor.impl.batchXML10; 
 
-import org.jboss.shrinkwrap.descriptor.api.batchXML10.BatchXMLDescriptor;
 import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.batchXML10.BatchArtifactRef;
-import org.jboss.shrinkwrap.descriptor.impl.batchXML10.BatchArtifactRefImpl;
 import java.util.Map.Entry;
 
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
-
-import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
+import org.jboss.shrinkwrap.descriptor.api.batchXML10.BatchArtifactRef;
+import org.jboss.shrinkwrap.descriptor.api.batchXML10.BatchXMLDescriptor;
 import org.jboss.shrinkwrap.descriptor.spi.node.Node;
+import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
 
 /** 
  * <p> 

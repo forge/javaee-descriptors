@@ -1,14 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.facesconfig22; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigApplicationResourceLibraryContractsType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigSystemEventListenerType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigLocaleConfigType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigApplicationResourceBundleType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigApplicationExtensionType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigDefaultValidatorsType;
 /**
  * This interface defines the contract for the <code> faces-config-applicationType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

@@ -1,22 +1,13 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm10; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm10.Id;
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
 import org.jboss.shrinkwrap.descriptor.api.orm10.Column;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.ColumnImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm10.GeneratedValue;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.GeneratedValueImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm10.TemporalType;
-import org.jboss.shrinkwrap.descriptor.api.orm10.TableGenerator;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.TableGeneratorImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm10.Id;
 import org.jboss.shrinkwrap.descriptor.api.orm10.SequenceGenerator;
-import org.jboss.shrinkwrap.descriptor.impl.orm10.SequenceGeneratorImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm10.TableGenerator;
+import org.jboss.shrinkwrap.descriptor.api.orm10.TemporalType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> id </code> xsd type 

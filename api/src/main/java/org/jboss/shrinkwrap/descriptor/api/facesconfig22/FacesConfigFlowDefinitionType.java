@@ -1,15 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.facesconfig22; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionViewType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionSwitchType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionFlowReturnType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigNavigationRuleType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionFlowCallType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionFacesMethodCallType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionInboundParameterType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.IconType;
 /**
  * This interface defines the contract for the <code> faces-config-flow-definitionType </code> xsd type 

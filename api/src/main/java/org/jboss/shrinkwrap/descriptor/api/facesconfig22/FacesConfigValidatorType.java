@@ -1,11 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.facesconfig22; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigAttributeType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigPropertyType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigValidatorExtensionType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.IconType;
 /**
  * This interface defines the contract for the <code> faces-config-validatorType </code> xsd type 

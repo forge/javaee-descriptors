@@ -1,13 +1,11 @@
 package org.jboss.shrinkwrap.descriptor.api.application5; 
 
-import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.application5.ModuleType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleType;
 
 /** 
  * <p> 

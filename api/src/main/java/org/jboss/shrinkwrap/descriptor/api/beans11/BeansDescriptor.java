@@ -1,12 +1,7 @@
 package org.jboss.shrinkwrap.descriptor.api.beans11; 
 
-import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.beans11.Interceptors;
-import org.jboss.shrinkwrap.descriptor.api.beans11.Decorators;
-import org.jboss.shrinkwrap.descriptor.api.beans11.Alternatives;
-import org.jboss.shrinkwrap.descriptor.api.beans11.Scan;
+
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
 

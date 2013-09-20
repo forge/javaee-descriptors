@@ -1,21 +1,14 @@
 package org.jboss.shrinkwrap.descriptor.impl.persistence21; 
 
-import org.jboss.shrinkwrap.descriptor.api.persistence21.PersistenceDescriptor;
 import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.persistence21.PersistenceUnit;
-import org.jboss.shrinkwrap.descriptor.impl.persistence21.PersistenceUnitImpl;
 import java.util.Map.Entry;
 
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
-
-import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
+import org.jboss.shrinkwrap.descriptor.api.persistence21.PersistenceDescriptor;
+import org.jboss.shrinkwrap.descriptor.api.persistence21.PersistenceUnit;
 import org.jboss.shrinkwrap.descriptor.spi.node.Node;
+import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
 
 /** 
  * <p> 

@@ -1,20 +1,10 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm21; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm21.PersistenceUnitDefaults;
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.EmptyType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee7.EmptyTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm21.AccessType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.EmptyType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee7.EmptyTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm21.EntityListeners;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.EntityListenersImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm21.PersistenceUnitDefaults;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> persistence-unit-defaults </code> xsd type 

@@ -1,10 +1,10 @@
 package org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.ParamValueType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.IconType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.ParamValueType;
 /**
  * This interface defines the contract for the <code> handlerType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

@@ -1,15 +1,6 @@
 package org.jboss.shrinkwrap.descriptor.api.jobXML10; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.ItemReader;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.ItemProcessor;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.ItemWriter;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.CheckpointAlgorithm;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.ExceptionClassFilter;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.ExceptionClassFilter;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.ExceptionClassFilter;
 /**
  * This interface defines the contract for the <code> Chunk </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

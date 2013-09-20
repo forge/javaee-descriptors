@@ -1,33 +1,22 @@
 package org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary21; 
 
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.WebJsptaglibraryDescriptor;
 import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.ValidatorType;
-import org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary21.ValidatorTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.ListenerType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee5.ListenerTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.TagType;
-import org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary21.TagTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.TagFileType;
-import org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary21.TagFileTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.FunctionType;
-import org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary21.FunctionTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.TldExtensionType;
-import org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary21.TldExtensionTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
 import java.util.Map.Entry;
 
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
-
-import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.ListenerType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.FunctionType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.TagFileType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.TagType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.TldExtensionType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.ValidatorType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.WebJsptaglibraryDescriptor;
+import org.jboss.shrinkwrap.descriptor.impl.javaee5.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee5.ListenerTypeImpl;
 import org.jboss.shrinkwrap.descriptor.spi.node.Node;
+import org.jboss.shrinkwrap.descriptor.spi.node.NodeDescriptorImplBase;
 
 /** 
  * <p> 

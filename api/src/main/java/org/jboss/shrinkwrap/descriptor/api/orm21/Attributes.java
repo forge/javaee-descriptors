@@ -1,19 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.orm21; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Id;
-import org.jboss.shrinkwrap.descriptor.api.orm21.EmbeddedId;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Basic;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Version;
-import org.jboss.shrinkwrap.descriptor.api.orm21.ManyToOne;
-import org.jboss.shrinkwrap.descriptor.api.orm21.OneToMany;
-import org.jboss.shrinkwrap.descriptor.api.orm21.OneToOne;
-import org.jboss.shrinkwrap.descriptor.api.orm21.ManyToMany;
-import org.jboss.shrinkwrap.descriptor.api.orm21.ElementCollection;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Embedded;
-import org.jboss.shrinkwrap.descriptor.api.orm21.Transient;
 /**
  * This interface defines the contract for the <code> attributes </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

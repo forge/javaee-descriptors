@@ -1,19 +1,15 @@
 package org.jboss.shrinkwrap.descriptor.impl.j2eewebservicesclient11; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.j2eewebservicesclient11.ServiceRefType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.j2eewebservicesclient11.PortComponentRefType;
-import org.jboss.shrinkwrap.descriptor.impl.j2eewebservicesclient11.PortComponentRefTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.j2eewebservicesclient11.ServiceRefHandlerType;
-import org.jboss.shrinkwrap.descriptor.impl.j2eewebservicesclient11.ServiceRefHandlerTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.j2ee14.IconType;
+import org.jboss.shrinkwrap.descriptor.api.j2eewebservicesclient11.PortComponentRefType;
+import org.jboss.shrinkwrap.descriptor.api.j2eewebservicesclient11.ServiceRefHandlerType;
+import org.jboss.shrinkwrap.descriptor.api.j2eewebservicesclient11.ServiceRefType;
 import org.jboss.shrinkwrap.descriptor.impl.j2ee14.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> service-refType </code> xsd type 

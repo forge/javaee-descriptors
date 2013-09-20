@@ -1,28 +1,20 @@
 package org.jboss.shrinkwrap.descriptor.api.ejbjar31; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.NamedMethodType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.TimerType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.TransactionTypeType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.ActivationConfigType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.AroundInvokeType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.AroundTimeoutType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.SecurityRoleRefType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.SecurityIdentityType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.IconType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.EnvEntryType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.EjbRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.DataSourceType;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.EjbLocalRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.ResourceRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.ResourceEnvRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.EjbRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.EnvEntryType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.IconType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.LifecycleCallbackType;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.MessageDestinationRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.PersistenceContextRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.PersistenceUnitRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.DataSourceType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.ResourceEnvRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.ResourceRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee6.SecurityRoleRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient13.ServiceRefType;
 /**
  * This interface defines the contract for the <code> message-driven-beanType </code> xsd type 

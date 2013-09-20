@@ -1,15 +1,10 @@
 package org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20; 
 
-import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibTagType;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibFunctionType;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibExtensionType;
-import org.jboss.shrinkwrap.descriptor.api.facelettaglibrary20.FaceletTaglibVersionType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
 
 /** 
  * <p> 

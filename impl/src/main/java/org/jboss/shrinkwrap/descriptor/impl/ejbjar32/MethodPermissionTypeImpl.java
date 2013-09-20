@@ -1,17 +1,12 @@
 package org.jboss.shrinkwrap.descriptor.impl.ejbjar32; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.MethodPermissionType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.EmptyType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee7.EmptyTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.MethodPermissionType;
 import org.jboss.shrinkwrap.descriptor.api.ejbjar32.MethodType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar32.MethodTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> method-permissionType </code> xsd type 

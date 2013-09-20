@@ -1,9 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.connector16; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.connector16.ConfigPropertyTypeType;
 /**
  * This interface defines the contract for the <code> config-propertyType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

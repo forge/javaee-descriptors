@@ -1,18 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.facesconfig21; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigSystemEventListenerType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigLocaleConfigType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigApplicationResourceBundleType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigApplicationExtensionType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigDefaultValidatorsType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigSystemEventListenerType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigLocaleConfigType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigApplicationResourceBundleType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigApplicationExtensionType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig21.FacesConfigDefaultValidatorsType;
 /**
  * This interface defines the contract for the <code> faces-config-applicationType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

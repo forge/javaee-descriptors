@@ -1,19 +1,11 @@
 package org.jboss.shrinkwrap.descriptor.impl.facespartialresponse22; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseType;
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
 import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseChangesType;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse22.PartialResponseChangesTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseRedirectType;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse22.PartialResponseRedirectTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseErrorType;
-import org.jboss.shrinkwrap.descriptor.impl.facespartialresponse22.PartialResponseErrorTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseRedirectType;
+import org.jboss.shrinkwrap.descriptor.api.facespartialresponse22.PartialResponseType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> partial-responseType </code> xsd type 

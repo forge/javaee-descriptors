@@ -1,10 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.javaee7; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.PropertyType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.IsolationLevelType;
 /**
  * This interface defines the contract for the <code> data-sourceType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

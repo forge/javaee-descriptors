@@ -1,15 +1,10 @@
 package org.jboss.shrinkwrap.descriptor.api.ejbjar32; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.SecurityRoleType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.MethodPermissionType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ContainerTransactionType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.InterceptorBindingType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.MessageDestinationType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ExcludeListType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ApplicationExceptionType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.SecurityRoleType;
 /**
  * This interface defines the contract for the <code> assembly-descriptorType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

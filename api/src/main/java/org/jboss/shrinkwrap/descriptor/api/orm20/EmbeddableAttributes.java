@@ -1,16 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.orm20; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Basic;
-import org.jboss.shrinkwrap.descriptor.api.orm20.ManyToOne;
-import org.jboss.shrinkwrap.descriptor.api.orm20.OneToMany;
-import org.jboss.shrinkwrap.descriptor.api.orm20.OneToOne;
-import org.jboss.shrinkwrap.descriptor.api.orm20.ManyToMany;
-import org.jboss.shrinkwrap.descriptor.api.orm20.ElementCollection;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Embedded;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Transient;
 /**
  * This interface defines the contract for the <code> embeddable-attributes </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

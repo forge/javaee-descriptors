@@ -1,29 +1,19 @@
 package org.jboss.shrinkwrap.descriptor.api.ejbjar30; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.SessionTypeType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.NamedMethodType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.InitMethodType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.RemoveMethodType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.TransactionTypeType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.AroundInvokeType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleRefType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar30.SecurityIdentityType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EnvEntryType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EjbRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.EjbLocalRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceEnvRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.EjbRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.EnvEntryType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.LifecycleCallbackType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.MessageDestinationRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.PersistenceContextRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.PersistenceUnitRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.LifecycleCallbackType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceEnvRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.ResourceRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee5.SecurityRoleRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient12.ServiceRefType;
 /**
  * This interface defines the contract for the <code> session-beanType </code> xsd type 

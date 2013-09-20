@@ -1,25 +1,17 @@
 package org.jboss.shrinkwrap.descriptor.impl.jobXML10; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Job;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Properties;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.PropertiesImpl;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Listeners;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.ListenersImpl;
 import org.jboss.shrinkwrap.descriptor.api.jobXML10.Decision;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.DecisionImpl;
 import org.jboss.shrinkwrap.descriptor.api.jobXML10.Flow;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.FlowImpl;
+import org.jboss.shrinkwrap.descriptor.api.jobXML10.Job;
+import org.jboss.shrinkwrap.descriptor.api.jobXML10.Listeners;
+import org.jboss.shrinkwrap.descriptor.api.jobXML10.Properties;
 import org.jboss.shrinkwrap.descriptor.api.jobXML10.Split;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.SplitImpl;
 import org.jboss.shrinkwrap.descriptor.api.jobXML10.Step;
-import org.jboss.shrinkwrap.descriptor.impl.jobXML10.StepImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> Job </code> xsd type 

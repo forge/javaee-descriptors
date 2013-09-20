@@ -1,29 +1,19 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm21; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm21.EmbeddableAttributes;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
 import org.jboss.shrinkwrap.descriptor.api.orm21.Basic;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.BasicImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.ManyToOne;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.ManyToOneImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.OneToMany;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.OneToManyImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.OneToOne;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.OneToOneImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm21.ManyToMany;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.ManyToManyImpl;
 import org.jboss.shrinkwrap.descriptor.api.orm21.ElementCollection;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.ElementCollectionImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm21.EmbeddableAttributes;
 import org.jboss.shrinkwrap.descriptor.api.orm21.Embedded;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.EmbeddedImpl;
+import org.jboss.shrinkwrap.descriptor.api.orm21.ManyToMany;
+import org.jboss.shrinkwrap.descriptor.api.orm21.ManyToOne;
+import org.jboss.shrinkwrap.descriptor.api.orm21.OneToMany;
+import org.jboss.shrinkwrap.descriptor.api.orm21.OneToOne;
 import org.jboss.shrinkwrap.descriptor.api.orm21.Transient;
-import org.jboss.shrinkwrap.descriptor.impl.orm21.TransientImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> embeddable-attributes </code> xsd type 

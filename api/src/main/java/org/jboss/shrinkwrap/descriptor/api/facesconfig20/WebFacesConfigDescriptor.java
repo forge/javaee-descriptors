@@ -1,38 +1,7 @@
 package org.jboss.shrinkwrap.descriptor.api.facesconfig20; 
 
-import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigApplicationType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigOrderingType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigAbsoluteOrderingType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigFactoryType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigComponentType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigConverterType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigManagedBeanType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigNavigationRuleType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigReferencedBeanType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigRenderKitType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigLifecycleType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigValidatorType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigBehaviorType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigExtensionType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigVersionType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigApplicationType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigOrderingType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigAbsoluteOrderingType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigFactoryType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigComponentType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigConverterType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigManagedBeanType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigNavigationRuleType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigReferencedBeanType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigRenderKitType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigLifecycleType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigValidatorType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigBehaviorType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigExtensionType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig20.FacesConfigVersionType;
+
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
 

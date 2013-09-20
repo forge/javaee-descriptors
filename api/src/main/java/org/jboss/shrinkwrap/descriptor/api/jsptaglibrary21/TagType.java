@@ -1,13 +1,9 @@
 package org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.BodyContentType;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.VariableType;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.TldAttributeType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.GenericBooleanType;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.TldExtensionType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.IconType;
 /**
  * This interface defines the contract for the <code> tagType </code> xsd type 

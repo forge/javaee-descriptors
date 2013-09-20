@@ -1,12 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.GenericBooleanType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.GenericBooleanType;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.TldDeferredValueType;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.TldDeferredMethodType;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.GenericBooleanType;
 /**
  * This interface defines the contract for the <code> tld-attributeType </code> xsd type 

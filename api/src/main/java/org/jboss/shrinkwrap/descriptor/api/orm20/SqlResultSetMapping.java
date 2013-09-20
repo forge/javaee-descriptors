@@ -1,10 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.orm20; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm20.EntityResult;
-import org.jboss.shrinkwrap.descriptor.api.orm20.ColumnResult;
 /**
  * This interface defines the contract for the <code> sql-result-set-mapping </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

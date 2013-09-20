@@ -1,25 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.facesconfig22; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigApplicationType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigOrderingType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigAbsoluteOrderingType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFactoryType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigComponentType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigConverterType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigManagedBeanType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigNavigationRuleType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigProtectedViewsType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigReferencedBeanType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigRenderKitType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigLifecycleType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigValidatorType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigBehaviorType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigExtensionType;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigVersionType;
 /**
  * This interface defines the contract for the <code> faces-configType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

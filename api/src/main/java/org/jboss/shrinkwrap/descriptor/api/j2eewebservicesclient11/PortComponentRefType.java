@@ -1,7 +1,5 @@
 package org.jboss.shrinkwrap.descriptor.api.j2eewebservicesclient11; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
 /**
  * This interface defines the contract for the <code> port-component-refType </code> xsd type 

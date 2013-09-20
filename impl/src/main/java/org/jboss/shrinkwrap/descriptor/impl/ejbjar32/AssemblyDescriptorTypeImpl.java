@@ -1,27 +1,20 @@
 package org.jboss.shrinkwrap.descriptor.impl.ejbjar32; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.AssemblyDescriptorType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.SecurityRoleType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee7.SecurityRoleTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.MethodPermissionType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar32.MethodPermissionTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ContainerTransactionType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar32.ContainerTransactionTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.InterceptorBindingType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar32.InterceptorBindingTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.MessageDestinationType;
-import org.jboss.shrinkwrap.descriptor.impl.javaee7.MessageDestinationTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ExcludeListType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar32.ExcludeListTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ApplicationExceptionType;
-import org.jboss.shrinkwrap.descriptor.impl.ejbjar32.ApplicationExceptionTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.AssemblyDescriptorType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ContainerTransactionType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ExcludeListType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.InterceptorBindingType;
+import org.jboss.shrinkwrap.descriptor.api.ejbjar32.MethodPermissionType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.MessageDestinationType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.SecurityRoleType;
+import org.jboss.shrinkwrap.descriptor.impl.javaee7.MessageDestinationTypeImpl;
+import org.jboss.shrinkwrap.descriptor.impl.javaee7.SecurityRoleTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> assembly-descriptorType </code> xsd type 

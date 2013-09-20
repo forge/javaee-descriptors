@@ -1,13 +1,6 @@
 package org.jboss.shrinkwrap.descriptor.api.jobXML10; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.PartitionMapper;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.PartitionPlan;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Collector;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Analyzer;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.PartitionReducer;
 /**
  * This interface defines the contract for the <code> Partition </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

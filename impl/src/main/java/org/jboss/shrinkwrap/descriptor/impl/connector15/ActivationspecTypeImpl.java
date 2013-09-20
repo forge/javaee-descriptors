@@ -1,15 +1,12 @@
 package org.jboss.shrinkwrap.descriptor.impl.connector15; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.connector15.ActivationspecType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
+import org.jboss.shrinkwrap.descriptor.api.connector15.ActivationspecType;
 import org.jboss.shrinkwrap.descriptor.api.connector15.RequiredConfigPropertyType;
-import org.jboss.shrinkwrap.descriptor.impl.connector15.RequiredConfigPropertyTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> activationspecType </code> xsd type 

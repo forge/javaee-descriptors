@@ -1,29 +1,18 @@
 package org.jboss.shrinkwrap.descriptor.impl.portletapp20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.InitParamType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.InitParamTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.SupportsType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.SupportsTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletInfoType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.PortletInfoTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletPreferencesType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.PortletPreferencesTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.SecurityRoleRefType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.SecurityRoleRefTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.EventDefinitionReferenceType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.EventDefinitionReferenceTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.EventDefinitionReferenceType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.EventDefinitionReferenceTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.portletapp20.ContainerRuntimeOptionType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.ContainerRuntimeOptionTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.EventDefinitionReferenceType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.InitParamType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletInfoType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletPreferencesType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.SecurityRoleRefType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.SupportsType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> portletType </code> xsd type 

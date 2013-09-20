@@ -1,29 +1,23 @@
 package org.jboss.shrinkwrap.descriptor.api.ejbjar32; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.AroundInvokeType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.AroundTimeoutType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.EnvEntryType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.EjbRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.AdministeredObjectType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.ConnectionFactoryResourceType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.DataSourceType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.EjbLocalRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.ResourceRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.ResourceEnvRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.EjbRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.EnvEntryType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.JmsConnectionFactoryType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.JmsDestinationType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.LifecycleCallbackType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.MailSessionType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.MessageDestinationRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.PersistenceContextRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.PersistenceUnitRefType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.LifecycleCallbackType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.DataSourceType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.JmsConnectionFactoryType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.JmsDestinationType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.MailSessionType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.ConnectionFactoryResourceType;
-import org.jboss.shrinkwrap.descriptor.api.javaee7.AdministeredObjectType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.ResourceEnvRefType;
+import org.jboss.shrinkwrap.descriptor.api.javaee7.ResourceRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient14.ServiceRefType;
 /**
  * This interface defines the contract for the <code> interceptorType </code> xsd type 

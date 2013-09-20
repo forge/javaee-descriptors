@@ -1,16 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.jobXML10; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Decision;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Flow;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Split;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Step;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.End;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Fail;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Next;
-import org.jboss.shrinkwrap.descriptor.api.jobXML10.Stop;
 /**
  * This interface defines the contract for the <code> Flow </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

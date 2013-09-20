@@ -1,35 +1,22 @@
 package org.jboss.shrinkwrap.descriptor.impl.portletapp20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletAppType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.PortletTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.CustomPortletModeType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.CustomPortletModeTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.CustomWindowStateType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.CustomWindowStateTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.UserAttributeType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.UserAttributeTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.SecurityConstraintType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.SecurityConstraintTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.FilterType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.FilterTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.FilterMappingType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.FilterMappingTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.EventDefinitionType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.EventDefinitionTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.PublicRenderParameterType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.PublicRenderParameterTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.portletapp20.ListenerType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.ListenerTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.portletapp20.ContainerRuntimeOptionType;
-import org.jboss.shrinkwrap.descriptor.impl.portletapp20.ContainerRuntimeOptionTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.CustomPortletModeType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.CustomWindowStateType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.EventDefinitionType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.FilterMappingType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.FilterType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.ListenerType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletAppType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.PortletType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.PublicRenderParameterType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.SecurityConstraintType;
+import org.jboss.shrinkwrap.descriptor.api.portletapp20.UserAttributeType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> portlet-appType </code> xsd type 

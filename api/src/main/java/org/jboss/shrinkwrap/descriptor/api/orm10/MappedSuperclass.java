@@ -1,21 +1,6 @@
 package org.jboss.shrinkwrap.descriptor.api.orm10; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm10.IdClass;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EmptyType;
-import org.jboss.shrinkwrap.descriptor.api.javaee5.EmptyType;
-import org.jboss.shrinkwrap.descriptor.api.orm10.EntityListeners;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PrePersist;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PostPersist;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PreRemove;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PostRemove;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PreUpdate;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PostUpdate;
-import org.jboss.shrinkwrap.descriptor.api.orm10.PostLoad;
-import org.jboss.shrinkwrap.descriptor.api.orm10.Attributes;
-import org.jboss.shrinkwrap.descriptor.api.orm10.AccessType;
 /**
  * This interface defines the contract for the <code> mapped-superclass </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

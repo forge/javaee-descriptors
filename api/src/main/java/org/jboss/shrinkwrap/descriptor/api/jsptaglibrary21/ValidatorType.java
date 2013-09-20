@@ -1,7 +1,7 @@
 package org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.ParamValueType;
 /**

@@ -1,29 +1,20 @@
 package org.jboss.shrinkwrap.descriptor.impl.facesconfig22; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionViewType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig22.FacesConfigFlowDefinitionViewTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionSwitchType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig22.FacesConfigFlowDefinitionSwitchTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionFlowReturnType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig22.FacesConfigFlowDefinitionFlowReturnTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigNavigationRuleType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig22.FacesConfigNavigationRuleTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionFlowCallType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig22.FacesConfigFlowDefinitionFlowCallTypeImpl;
 import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionFacesMethodCallType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig22.FacesConfigFlowDefinitionFacesMethodCallTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionFlowCallType;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionFlowReturnType;
 import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionInboundParameterType;
-import org.jboss.shrinkwrap.descriptor.impl.facesconfig22.FacesConfigFlowDefinitionInboundParameterTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionSwitchType;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionType;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigFlowDefinitionViewType;
+import org.jboss.shrinkwrap.descriptor.api.facesconfig22.FacesConfigNavigationRuleType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.IconType;
 import org.jboss.shrinkwrap.descriptor.impl.javaee7.IconTypeImpl;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> faces-config-flow-definitionType </code> xsd type 

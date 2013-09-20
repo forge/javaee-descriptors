@@ -1,33 +1,23 @@
 package org.jboss.shrinkwrap.descriptor.impl.orm20; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.orm20.ManyToMany;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.orm20.OrderColumn;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.OrderColumnImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.MapKey;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.MapKeyImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyClass;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.MapKeyClassImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.TemporalType;
-import org.jboss.shrinkwrap.descriptor.api.orm20.EnumType;
-import org.jboss.shrinkwrap.descriptor.api.orm20.AttributeOverride;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.AttributeOverrideImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyColumn;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.MapKeyColumnImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyJoinColumn;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.MapKeyJoinColumnImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.JoinTable;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.JoinTableImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.CascadeType;
-import org.jboss.shrinkwrap.descriptor.impl.orm20.CascadeTypeImpl;
-import org.jboss.shrinkwrap.descriptor.api.orm20.FetchType;
 import org.jboss.shrinkwrap.descriptor.api.orm20.AccessType;
+import org.jboss.shrinkwrap.descriptor.api.orm20.AttributeOverride;
+import org.jboss.shrinkwrap.descriptor.api.orm20.CascadeType;
+import org.jboss.shrinkwrap.descriptor.api.orm20.EnumType;
+import org.jboss.shrinkwrap.descriptor.api.orm20.FetchType;
+import org.jboss.shrinkwrap.descriptor.api.orm20.JoinTable;
+import org.jboss.shrinkwrap.descriptor.api.orm20.ManyToMany;
+import org.jboss.shrinkwrap.descriptor.api.orm20.MapKey;
+import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyClass;
+import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyColumn;
+import org.jboss.shrinkwrap.descriptor.api.orm20.MapKeyJoinColumn;
+import org.jboss.shrinkwrap.descriptor.api.orm20.OrderColumn;
+import org.jboss.shrinkwrap.descriptor.api.orm20.TemporalType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> many-to-many </code> xsd type 

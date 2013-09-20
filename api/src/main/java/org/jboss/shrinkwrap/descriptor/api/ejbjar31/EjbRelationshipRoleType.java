@@ -1,12 +1,8 @@
 package org.jboss.shrinkwrap.descriptor.api.ejbjar31; 
 
-import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.MultiplicityType;
-import org.jboss.shrinkwrap.descriptor.api.javaee6.EmptyType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.RelationshipRoleSourceType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar31.CmrFieldType;
 /**
  * This interface defines the contract for the <code> ejb-relationship-roleType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

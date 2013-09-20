@@ -1,15 +1,13 @@
 package org.jboss.shrinkwrap.descriptor.impl.jsptaglibrary21; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.VariableType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
 import org.jboss.shrinkwrap.descriptor.api.javaee5.GenericBooleanType;
 import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.VariableScopeType;
+import org.jboss.shrinkwrap.descriptor.api.jsptaglibrary21.VariableType;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> variableType </code> xsd type 

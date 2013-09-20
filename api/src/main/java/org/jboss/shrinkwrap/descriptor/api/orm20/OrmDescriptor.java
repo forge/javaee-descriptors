@@ -1,18 +1,7 @@
 package org.jboss.shrinkwrap.descriptor.api.orm20; 
 
-import java.util.ArrayList;
 import java.util.List;
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.orm20.PersistenceUnitMetadata;
-import org.jboss.shrinkwrap.descriptor.api.orm20.AccessType;
-import org.jboss.shrinkwrap.descriptor.api.orm20.SequenceGenerator;
-import org.jboss.shrinkwrap.descriptor.api.orm20.TableGenerator;
-import org.jboss.shrinkwrap.descriptor.api.orm20.NamedQuery;
-import org.jboss.shrinkwrap.descriptor.api.orm20.NamedNativeQuery;
-import org.jboss.shrinkwrap.descriptor.api.orm20.SqlResultSetMapping;
-import org.jboss.shrinkwrap.descriptor.api.orm20.MappedSuperclass;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Entity;
-import org.jboss.shrinkwrap.descriptor.api.orm20.Embeddable;
+
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
 

@@ -1,10 +1,6 @@
 package org.jboss.shrinkwrap.descriptor.api.ejbjar32; 
 
-import java.util.ArrayList;
-import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.QueryMethodType;
-import org.jboss.shrinkwrap.descriptor.api.ejbjar32.ResultTypeMappingType;
 /**
  * This interface defines the contract for the <code> queryType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

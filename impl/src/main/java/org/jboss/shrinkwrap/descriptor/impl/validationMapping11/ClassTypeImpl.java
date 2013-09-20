@@ -1,17 +1,14 @@
 package org.jboss.shrinkwrap.descriptor.impl.validationMapping11; 
 
-import org.jboss.shrinkwrap.descriptor.spi.node.Node;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ClassType;
 import java.util.ArrayList;
 import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.impl.base.XMLDate;
-import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorExporter;
-import org.jboss.shrinkwrap.descriptor.api.validationMapping11.GroupSequenceType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.GroupSequenceTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ClassType;
 import org.jboss.shrinkwrap.descriptor.api.validationMapping11.ConstraintType;
-import org.jboss.shrinkwrap.descriptor.impl.validationMapping11.ConstraintTypeImpl;
+import org.jboss.shrinkwrap.descriptor.api.validationMapping11.GroupSequenceType;
+import org.jboss.shrinkwrap.descriptor.impl.base.Strings;
+import org.jboss.shrinkwrap.descriptor.spi.node.Node;
 
 /**
  * This class implements the <code> classType </code> xsd type 
