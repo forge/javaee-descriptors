@@ -6,7 +6,7 @@
       <version>0.0.1-SNAPSHOT</version>
    </parent>
    <artifactId>javaee-descriptors</artifactId>
-   <name>Forge Java EE Descriptors API</name>
+   <name>Forge Java EE Descriptors</name>
    <dependencies>
       <dependency>
          <groupId>org.jboss.forge.descriptors</groupId>

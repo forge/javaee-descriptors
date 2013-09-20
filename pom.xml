@@ -9,7 +9,7 @@
    <artifactId>javaee-descriptors-parent</artifactId>
    <version>0.0.1-SNAPSHOT</version>
    <packaging>pom</packaging>
-   <name>Forge Java EE Descriptors</name>
+   <name>Forge Java EE Descriptors :: Parent</name>
    <modules>
       <module>api</module>
       <module>impl</module>
