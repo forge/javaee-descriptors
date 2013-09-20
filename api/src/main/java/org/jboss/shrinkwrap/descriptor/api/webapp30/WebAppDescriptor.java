@@ -21,6 +21,7 @@ import org.jboss.shrinkwrap.descriptor.api.javaee6.ResourceRefType;
 import org.jboss.shrinkwrap.descriptor.api.javaee6.SecurityRoleType;
 import org.jboss.shrinkwrap.descriptor.api.javaeewebservicesclient13.ServiceRefType;
 import org.jboss.shrinkwrap.descriptor.api.jsp22.JspConfigType;
+import org.jboss.shrinkwrap.descriptor.api.webapp.WebAppCommonDescriptor;
 import org.jboss.shrinkwrap.descriptor.api.webcommon30.AbsoluteOrderingType;
 import org.jboss.shrinkwrap.descriptor.api.webcommon30.ErrorPageType;
 import org.jboss.shrinkwrap.descriptor.api.webcommon30.FilterMappingType;
@@ -49,7 +50,7 @@ import org.jboss.shrinkwrap.descriptor.api.webcommon30.WelcomeFileListType;
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
  * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
  */
-public interface WebAppDescriptor extends Descriptor, DescriptorNamespace<WebAppDescriptor>
+public interface WebAppDescriptor extends Descriptor, DescriptorNamespace<WebAppDescriptor>, WebAppCommonDescriptor<WebAppDescriptor>
 {
  
    // --------------------------------------------------------------------------------------------------------||
