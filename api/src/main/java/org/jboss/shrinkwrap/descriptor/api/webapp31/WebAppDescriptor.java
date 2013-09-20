@@ -54,8 +54,11 @@ import org.jboss.shrinkwrap.descriptor.api.webcommon31.WelcomeFileListType;
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
  * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
  */
-public interface WebAppDescriptor extends Descriptor, DescriptorNamespace<WebAppDescriptor>,
-         WebAppCommonDescriptor<WebAppDescriptor, ParamValueType<WebAppDescriptor>, ServletType<WebAppDescriptor>>
+public interface WebAppDescriptor
+         extends
+         Descriptor,
+         DescriptorNamespace<WebAppDescriptor>,
+         WebAppCommonDescriptor<WebAppDescriptor, ParamValueType<WebAppDescriptor>, ServletType<WebAppDescriptor>, ServletMappingType<WebAppDescriptor>>
 {
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: WebAppDescriptor ElementName: javaee:filterType ElementType : filter

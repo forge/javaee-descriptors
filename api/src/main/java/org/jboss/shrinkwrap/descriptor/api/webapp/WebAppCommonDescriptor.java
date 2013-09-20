@@ -12,12 +12,13 @@ import java.util.List;
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.javaee.ParamValueCommonType;
 import org.jboss.shrinkwrap.descriptor.api.webcommon.ServletCommonType;
+import org.jboss.shrinkwrap.descriptor.api.webcommon.ServletMappingCommonType;
 
 /**
  * 
  * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T, PARAM, SERVLET_TYPE>, PARAM extends ParamValueCommonType<PARAM>, SERVLET_TYPE extends ServletCommonType<SERVLET_TYPE>>
+public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T, PARAM, SERVLET_TYPE, SERVLET_MAPPING_TYPE>, PARAM extends ParamValueCommonType<PARAM>, SERVLET_TYPE extends ServletCommonType<SERVLET_TYPE>, SERVLET_MAPPING_TYPE extends ServletMappingCommonType<SERVLET_MAPPING_TYPE>>
          extends Descriptor
 {
    // --------------------------------------------------------------------------------------------------------||
@@ -108,5 +109,36 @@ public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T, PARA
     * @return the current instance of <code>ServletType<WebAppDescriptor></code>
     */
    public T removeAllServlet();
+   
+   /**
+    * If not already created, a new <code>servlet-mapping</code> element will be created and returned. Otherwise, the
+    * first existing <code>servlet-mapping</code> element will be returned.
+    * 
+    * @return the instance defined for the element <code>servlet-mapping</code>
+    */
+   public SERVLET_MAPPING_TYPE getOrCreateServletMapping();
+
+   /**
+    * Creates a new <code>servlet-mapping</code> element
+    * 
+    * @return the new created instance of <code>ServletMappingType<WebAppDescriptor></code>
+    */
+   public SERVLET_MAPPING_TYPE createServletMapping();
+
+   /**
+    * Returns all <code>servlet-mapping</code> elements
+    * 
+    * @return list of <code>servlet-mapping</code>
+    */
+   public List<SERVLET_MAPPING_TYPE> getAllServletMapping();
+
+   /**
+    * Removes all <code>servlet-mapping</code> elements
+    * 
+    * @return the current instance of <code>ServletMappingType<WebAppDescriptor></code>
+    */
+   public T removeAllServletMapping();
+
+
 
 }
