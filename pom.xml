@@ -1,5 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
+   <parent>
+      <groupId>org.jboss</groupId>
+      <artifactId>jboss-parent</artifactId>
+      <version>10</version>
+   </parent>
    <groupId>org.jboss.forge.descriptors</groupId>
    <artifactId>javaee-descriptors-parent</artifactId>
    <version>0.0.1-SNAPSHOT</version>
@@ -28,16 +33,6 @@
          <id>gastaldi</id>
          <name>George Gastaldi</name>
          <email>gegastaldi@gmail.com</email>
-      </developer>
-      <developer>
-         <id>koen</id>
-         <name>Koen Aers</name>
-         <email>koen.aers@gmail.com</email>
-      </developer>
-      <developer>
-         <id>stale</id>
-         <name>Stale Pedersen</name>
-         <email>stalep@gmail.com</email>
       </developer>
    </developers>
    <prerequisites>
