@@ -7,6 +7,6 @@ import org.jboss.shrinkwrap.descriptor.api.javaee.ParamValueCommonType;
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
  * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
  */
-public interface ParamValueType<T> extends Child<T>, ParamValueCommonType<T, ParamValueType<T>>
+public interface ParamValueType<T> extends Child<T>, ParamValueCommonType<ParamValueType<T>>
 {
 }

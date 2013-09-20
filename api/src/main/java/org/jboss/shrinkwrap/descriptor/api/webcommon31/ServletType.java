@@ -7,12 +7,13 @@ import org.jboss.shrinkwrap.descriptor.api.javaee7.IconType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.ParamValueType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.RunAsType;
 import org.jboss.shrinkwrap.descriptor.api.javaee7.SecurityRoleRefType;
+import org.jboss.shrinkwrap.descriptor.api.webcommon.ServletCommonType;
 /**
  * This interface defines the contract for the <code> servletType </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
  * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
  */
-public interface ServletType<T> extends Child<T>
+public interface ServletType<T> extends Child<T>, ServletCommonType<ServletType<T>>
 {
  
    // --------------------------------------------------------------------------------------------------------||

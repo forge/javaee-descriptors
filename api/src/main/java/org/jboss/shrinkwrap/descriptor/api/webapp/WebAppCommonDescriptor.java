@@ -7,13 +7,18 @@
 
 package org.jboss.shrinkwrap.descriptor.api.webapp;
 
+import java.util.List;
+
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
+import org.jboss.shrinkwrap.descriptor.api.javaee.ParamValueCommonType;
+import org.jboss.shrinkwrap.descriptor.api.webcommon.ServletCommonType;
 
 /**
  * 
  * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T>> extends Descriptor
+public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T, PARAM, SERVLET_TYPE>, PARAM extends ParamValueCommonType<PARAM>, SERVLET_TYPE extends ServletCommonType<SERVLET_TYPE>>
+         extends Descriptor
 {
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: WebAppDescriptor ElementName: javaee:emptyType ElementType : distributable
@@ -40,4 +45,68 @@ public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T>> ext
     * @return the current instance of <code>WebAppDescriptor</code>
     */
    public T removeDistributable();
+
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: WebAppDescriptor ElementName: javaee:param-valueType ElementType : context-param
+   // MaxOccurs: -unbounded isGeneric: false isAttribute: false isEnum: false isDataType: false
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * If not already created, a new <code>context-param</code> element will be created and returned. Otherwise, the
+    * first existing <code>context-param</code> element will be returned.
+    * 
+    * @return the instance defined for the element <code>context-param</code>
+    */
+   public PARAM getOrCreateContextParam();
+
+   /**
+    * Creates a new <code>context-param</code> element
+    * 
+    * @return the new created instance of <code>ParamValueType<WebAppDescriptor></code>
+    */
+   public PARAM createContextParam();
+
+   /**
+    * Returns all <code>context-param</code> elements
+    * 
+    * @return list of <code>context-param</code>
+    */
+   public List<PARAM> getAllContextParam();
+
+   /**
+    * Removes all <code>context-param</code> elements
+    * 
+    * @return the current instance of <code>ParamValueType<WebAppDescriptor></code>
+    */
+   public T removeAllContextParam();
+
+   /**
+    * If not already created, a new <code>servlet</code> element will be created and returned. Otherwise, the first
+    * existing <code>servlet</code> element will be returned.
+    * 
+    * @return the instance defined for the element <code>servlet</code>
+    */
+   public SERVLET_TYPE getOrCreateServlet();
+
+   /**
+    * Creates a new <code>servlet</code> element
+    * 
+    * @return the new created instance of <code>ServletType<WebAppDescriptor></code>
+    */
+   public SERVLET_TYPE createServlet();
+
+   /**
+    * Returns all <code>servlet</code> elements
+    * 
+    * @return list of <code>servlet</code>
+    */
+   public List<SERVLET_TYPE> getAllServlet();
+
+   /**
+    * Removes all <code>servlet</code> elements
+    * 
+    * @return the current instance of <code>ServletType<WebAppDescriptor></code>
+    */
+   public T removeAllServlet();
+
 }

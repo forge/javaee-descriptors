@@ -13,7 +13,7 @@ import java.util.List;
  * 
  * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface ParamValueCommonType<T, ORIGIN extends ParamValueCommonType<T, ORIGIN>>
+public interface ParamValueCommonType<ORIGIN extends ParamValueCommonType<ORIGIN>>
 {
 
    /**
