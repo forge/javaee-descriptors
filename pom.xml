@@ -12,6 +12,37 @@
    <properties>
       <shrinkwrap.descriptors.version>2.0.0-alpha-5</shrinkwrap.descriptors.version>
    </properties>
+   <licenses>
+      <license>
+         <name>Eclipse Public License version 1.0</name>
+         <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      </license>
+   </licenses>
+   <developers>
+      <developer>
+         <id>lincoln</id>
+         <name>Lincoln Baxter, III</name>
+         <email>lincolnbaxter@gmail.com</email>
+      </developer>
+      <developer>
+         <id>gastaldi</id>
+         <name>George Gastaldi</name>
+         <email>gegastaldi@gmail.com</email>
+      </developer>
+      <developer>
+         <id>koen</id>
+         <name>Koen Aers</name>
+         <email>koen.aers@gmail.com</email>
+      </developer>
+      <developer>
+         <id>stale</id>
+         <name>Stale Pedersen</name>
+         <email>stalep@gmail.com</email>
+      </developer>
+   </developers>
+   <prerequisites>
+      <maven>3.0</maven>
+   </prerequisites>
    <dependencyManagement>
       <dependencies>
          <dependency>
@@ -33,4 +64,10 @@
          </dependency>
       </dependencies>
    </dependencyManagement>
+   <scm>
+      <connection>scm:git:git://github.com/forge/javaee-descriptors.git</connection>
+      <developerConnection>scm:git:git@github.com:forge/javaee-descriptors.git</developerConnection>
+      <url>http://github.com/forge/javaee-descriptors</url>
+      <tag>HEAD</tag>
+   </scm>
 </project>
