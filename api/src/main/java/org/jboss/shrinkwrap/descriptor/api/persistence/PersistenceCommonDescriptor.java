@@ -1,30 +1,22 @@
-package org.jboss.shrinkwrap.descriptor.api.persistence10;
+/**
+ * Copyright 2013 Red Hat, Inc. and/or its affiliates.
+ *
+ * Licensed under the Eclipse Public License version 1.0, available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ */
+
+package org.jboss.shrinkwrap.descriptor.api.persistence;
 
 import java.util.List;
 
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
-import org.jboss.shrinkwrap.descriptor.api.DescriptorNamespace;
-import org.jboss.shrinkwrap.descriptor.api.persistence.PersistenceCommonDescriptor;
 
 /**
- * <p>
- * This deployment descriptor provides the functionalities as described in the specification
- * <p>
- * Example:
- * <p>
- * <code> 
- *     PersistenceDescriptor descriptor = Descriptors.create(PersistenceDescriptor.class);
- * </code>
  * 
- * 
- * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
- * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
+ * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface PersistenceDescriptor
-         extends
-         Descriptor,
-         DescriptorNamespace<PersistenceDescriptor>,
-         PersistenceCommonDescriptor<PersistenceDescriptor, PersistenceUnit<PersistenceDescriptor>>
+public interface PersistenceCommonDescriptor<T, PERSISTENCE_UNIT extends PersistenceUnitCommon<PERSISTENCE_UNIT, ?>>
+         extends Descriptor
 {
 
    // --------------------------------------------------------------------------------------------------------||
@@ -38,35 +30,28 @@ public interface PersistenceDescriptor
     * 
     * @return the instance defined for the element <code>persistence-unit</code>
     */
-   public PersistenceUnit<PersistenceDescriptor> getOrCreatePersistenceUnit();
+   public PERSISTENCE_UNIT getOrCreatePersistenceUnit();
 
    /**
     * Creates a new <code>persistence-unit</code> element
     * 
     * @return the new created instance of <code>PersistenceUnit<PersistenceDescriptor></code>
     */
-   public PersistenceUnit<PersistenceDescriptor> createPersistenceUnit();
+   public PERSISTENCE_UNIT createPersistenceUnit();
 
    /**
     * Returns all <code>persistence-unit</code> elements
     * 
     * @return list of <code>persistence-unit</code>
     */
-   public List<PersistenceUnit<PersistenceDescriptor>> getAllPersistenceUnit();
+   public List<PERSISTENCE_UNIT> getAllPersistenceUnit();
 
    /**
     * Removes all <code>persistence-unit</code> elements
     * 
     * @return the current instance of <code>PersistenceUnit<PersistenceDescriptor></code>
     */
-   public PersistenceDescriptor removeAllPersistenceUnit();
-
-   // --------------------------------------------------------------------------------------------------------||
-   // ClassName: PersistenceDescriptor ElementName: xsd:token ElementType : version
-   // MaxOccurs: - isGeneric: false isAttribute: true isEnum: false isDataType: true
-   // --------------------------------------------------------------------------------------------------------||
-
-   public static final String VERSION = "1.0";
+   public T removeAllPersistenceUnit();
 
    /**
     * Sets the <code>version</code> attribute
@@ -74,7 +59,7 @@ public interface PersistenceDescriptor
     * @param version the value for the attribute <code>version</code>
     * @return the current instance of <code>PersistenceDescriptor</code>
     */
-   public PersistenceDescriptor version(String version);
+   public T version(String version);
 
    /**
     * Returns the <code>version</code> attribute
@@ -88,5 +73,6 @@ public interface PersistenceDescriptor
     * 
     * @return the current instance of <code>PersistenceDescriptor</code>
     */
-   public PersistenceDescriptor removeVersion();
+   public T removeVersion();
+
 }

@@ -1,5 +1,6 @@
 package org.jboss.shrinkwrap.descriptor.api.persistence10; 
 
+
 /**
  * This class implements the <code> persistence-unit-transaction-type </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>

@@ -1,17 +1,19 @@
-package org.jboss.shrinkwrap.descriptor.api.persistence21;
+/**
+ * Copyright 2013 Red Hat, Inc. and/or its affiliates.
+ *
+ * Licensed under the Eclipse Public License version 1.0, available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ */
 
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.persistence.PropertyCommon;
+package org.jboss.shrinkwrap.descriptor.api.persistence;
+
 
 /**
- * This interface defines the contract for the <code> property </code> xsd type
  * 
- * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
- * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
+ * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface Property<T> extends Child<T>, PropertyCommon<Property<T>>
+public interface PropertyCommon<ORIGIN extends PropertyCommon<ORIGIN>>
 {
-
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: Property ElementName: xsd:string ElementType : name
    // MaxOccurs: - isGeneric: true isAttribute: true isEnum: false isDataType: true
@@ -21,9 +23,9 @@ public interface Property<T> extends Child<T>, PropertyCommon<Property<T>>
     * Sets the <code>name</code> attribute
     * 
     * @param name the value for the attribute <code>name</code>
-    * @return the current instance of <code>Property<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public Property<T> name(String name);
+   public ORIGIN name(String name);
 
    /**
     * Returns the <code>name</code> attribute
@@ -35,9 +37,9 @@ public interface Property<T> extends Child<T>, PropertyCommon<Property<T>>
    /**
     * Removes the <code>name</code> attribute
     * 
-    * @return the current instance of <code>Property<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public Property<T> removeName();
+   public ORIGIN removeName();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: Property ElementName: xsd:string ElementType : value
@@ -48,9 +50,9 @@ public interface Property<T> extends Child<T>, PropertyCommon<Property<T>>
     * Sets the <code>value</code> attribute
     * 
     * @param value the value for the attribute <code>value</code>
-    * @return the current instance of <code>Property<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public Property<T> value(String value);
+   public ORIGIN value(String value);
 
    /**
     * Returns the <code>value</code> attribute
@@ -62,7 +64,8 @@ public interface Property<T> extends Child<T>, PropertyCommon<Property<T>>
    /**
     * Removes the <code>value</code> attribute
     * 
-    * @return the current instance of <code>Property<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public Property<T> removeValue();
+   public ORIGIN removeValue();
+
 }

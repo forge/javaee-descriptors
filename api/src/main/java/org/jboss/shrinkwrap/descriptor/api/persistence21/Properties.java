@@ -3,12 +3,13 @@ package org.jboss.shrinkwrap.descriptor.api.persistence21;
 import java.util.List;
 
 import org.jboss.shrinkwrap.descriptor.api.Child;
+import org.jboss.shrinkwrap.descriptor.api.persistence.PropertiesCommon;
 /**
  * This interface defines the contract for the <code> properties </code> xsd type 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
  * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
  */
-public interface Properties<T> extends Child<T>
+public interface Properties<T> extends Child<T>, PropertiesCommon<Properties<T>, Property<Properties<T>>>
 {
  
    // --------------------------------------------------------------------------------------------------------||

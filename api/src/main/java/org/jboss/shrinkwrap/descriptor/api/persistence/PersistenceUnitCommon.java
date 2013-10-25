@@ -1,17 +1,20 @@
-package org.jboss.shrinkwrap.descriptor.api.persistence20;
+/**
+ * Copyright 2013 Red Hat, Inc. and/or its affiliates.
+ *
+ * Licensed under the Eclipse Public License version 1.0, available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ */
+
+package org.jboss.shrinkwrap.descriptor.api.persistence;
 
 import java.util.List;
 
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.persistence.PersistenceUnitCommon;
-
 /**
- * This interface defines the contract for the <code> persistence-unit </code> xsd type
  * 
- * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
- * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
+ * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<PersistenceUnit<T>, Properties<PersistenceUnit<T>>>
+@SuppressWarnings("rawtypes")
+public interface PersistenceUnitCommon<ORIGIN extends PersistenceUnitCommon<ORIGIN, PROPERTIES>, PROPERTIES extends PropertiesCommon>
 {
 
    // --------------------------------------------------------------------------------------------------------||
@@ -23,9 +26,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
     * Sets the <code>description</code> element
     * 
     * @param description the value for the element <code>description</code>
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> description(String description);
+   public ORIGIN description(String description);
 
    /**
     * Returns the <code>description</code> element
@@ -37,9 +40,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
    /**
     * Removes the <code>description</code> element
     * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> removeDescription();
+   public ORIGIN removeDescription();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: PersistenceUnit ElementName: xsd:string ElementType : provider
@@ -50,9 +53,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
     * Sets the <code>provider</code> element
     * 
     * @param provider the value for the element <code>provider</code>
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> provider(String provider);
+   public ORIGIN provider(String provider);
 
    /**
     * Returns the <code>provider</code> element
@@ -64,9 +67,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
    /**
     * Removes the <code>provider</code> element
     * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> removeProvider();
+   public ORIGIN removeProvider();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: PersistenceUnit ElementName: xsd:string ElementType : jta-data-source
@@ -77,9 +80,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
     * Sets the <code>jta-data-source</code> element
     * 
     * @param jtaDataSource the value for the element <code>jta-data-source</code>
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> jtaDataSource(String jtaDataSource);
+   public ORIGIN jtaDataSource(String jtaDataSource);
 
    /**
     * Returns the <code>jta-data-source</code> element
@@ -91,9 +94,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
    /**
     * Removes the <code>jta-data-source</code> element
     * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> removeJtaDataSource();
+   public ORIGIN removeJtaDataSource();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: PersistenceUnit ElementName: xsd:string ElementType : non-jta-data-source
@@ -104,9 +107,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
     * Sets the <code>non-jta-data-source</code> element
     * 
     * @param nonJtaDataSource the value for the element <code>non-jta-data-source</code>
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> nonJtaDataSource(String nonJtaDataSource);
+   public ORIGIN nonJtaDataSource(String nonJtaDataSource);
 
    /**
     * Returns the <code>non-jta-data-source</code> element
@@ -118,9 +121,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
    /**
     * Removes the <code>non-jta-data-source</code> element
     * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> removeNonJtaDataSource();
+   public ORIGIN removeNonJtaDataSource();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: PersistenceUnit ElementName: xsd:string ElementType : mapping-file
@@ -132,9 +135,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
     * element
     * 
     * @param values list of <code>mapping-file</code> objects
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> mappingFile(String... values);
+   public ORIGIN mappingFile(String... values);
 
    /**
     * Returns all <code>mapping-file</code> elements
@@ -146,9 +149,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
    /**
     * Removes the <code>mapping-file</code> element
     * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> removeAllMappingFile();
+   public ORIGIN removeAllMappingFile();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: PersistenceUnit ElementName: xsd:string ElementType : jar-file
@@ -159,9 +162,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
     * Creates for all String objects representing <code>jar-file</code> elements, a new <code>jar-file</code> element
     * 
     * @param values list of <code>jar-file</code> objects
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> jarFile(String... values);
+   public ORIGIN jarFile(String... values);
 
    /**
     * Returns all <code>jar-file</code> elements
@@ -173,9 +176,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
    /**
     * Removes the <code>jar-file</code> element
     * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> removeAllJarFile();
+   public ORIGIN removeAllJarFile();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: PersistenceUnit ElementName: xsd:string ElementType : class
@@ -186,9 +189,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
     * Creates for all String objects representing <code>class</code> elements, a new <code>class</code> element
     * 
     * @param values list of <code>class</code> objects
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> clazz(String... values);
+   public ORIGIN clazz(String... values);
 
    /**
     * Returns all <code>class</code> elements
@@ -200,9 +203,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
    /**
     * Removes the <code>class</code> element
     * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> removeAllClazz();
+   public ORIGIN removeAllClazz();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: PersistenceUnit ElementName: xsd:boolean ElementType : exclude-unlisted-classes
@@ -213,9 +216,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
     * Sets the <code>exclude-unlisted-classes</code> element
     * 
     * @param excludeUnlistedClasses the value for the element <code>exclude-unlisted-classes</code>
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> excludeUnlistedClasses(Boolean excludeUnlistedClasses);
+   public ORIGIN excludeUnlistedClasses(Boolean excludeUnlistedClasses);
 
    /**
     * Returns the <code>exclude-unlisted-classes</code> element
@@ -227,92 +230,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
    /**
     * Removes the <code>exclude-unlisted-classes</code> element
     * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> removeExcludeUnlistedClasses();
-
-   // --------------------------------------------------------------------------------------------------------||
-   // ClassName: PersistenceUnit ElementName: persistence:persistence-unit-caching-type ElementType : shared-cache-mode
-   // MaxOccurs: - isGeneric: true isAttribute: false isEnum: true isDataType: false
-   // --------------------------------------------------------------------------------------------------------||
-   /**
-    * Sets the <code>shared-cache-mode</code> element
-    * 
-    * @param sharedCacheMode the value for the element <code>shared-cache-mode</code>
-    * @return the current instance of <code>PersistenceUnit<T></code>
-    */
-   public PersistenceUnit<T> sharedCacheMode(PersistenceUnitCachingType sharedCacheMode);
-
-   /**
-    * Sets the <code>shared-cache-mode</code> element
-    * 
-    * @param sharedCacheMode the value for the element <code>shared-cache-mode</code>
-    * @return the current instance of <code>PersistenceUnit<T></code>
-    */
-   public PersistenceUnit<T> sharedCacheMode(String sharedCacheMode);
-
-   /**
-    * Returns the <code>shared-cache-mode</code> element
-    * 
-    * @return the value found for the element <code>shared-cache-mode</code>
-    */
-   public PersistenceUnitCachingType getSharedCacheMode();
-
-   /**
-    * Returns the <code>shared-cache-mode</code> element
-    * 
-    * @return the value found for the element <code>shared-cache-mode</code>
-    */
-   public String getSharedCacheModeAsString();
-
-   /**
-    * Removes the <code>shared-cache-mode</code> attribute
-    * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
-    */
-   public PersistenceUnit<T> removeSharedCacheMode();
-
-   // --------------------------------------------------------------------------------------------------------||
-   // ClassName: PersistenceUnit ElementName: persistence:persistence-unit-validation-mode-type ElementType :
-   // validation-mode
-   // MaxOccurs: - isGeneric: true isAttribute: false isEnum: true isDataType: false
-   // --------------------------------------------------------------------------------------------------------||
-   /**
-    * Sets the <code>validation-mode</code> element
-    * 
-    * @param validationMode the value for the element <code>validation-mode</code>
-    * @return the current instance of <code>PersistenceUnit<T></code>
-    */
-   public PersistenceUnit<T> validationMode(PersistenceUnitValidationModeType validationMode);
-
-   /**
-    * Sets the <code>validation-mode</code> element
-    * 
-    * @param validationMode the value for the element <code>validation-mode</code>
-    * @return the current instance of <code>PersistenceUnit<T></code>
-    */
-   public PersistenceUnit<T> validationMode(String validationMode);
-
-   /**
-    * Returns the <code>validation-mode</code> element
-    * 
-    * @return the value found for the element <code>validation-mode</code>
-    */
-   public PersistenceUnitValidationModeType getValidationMode();
-
-   /**
-    * Returns the <code>validation-mode</code> element
-    * 
-    * @return the value found for the element <code>validation-mode</code>
-    */
-   public String getValidationModeAsString();
-
-   /**
-    * Removes the <code>validation-mode</code> attribute
-    * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
-    */
-   public PersistenceUnit<T> removeValidationMode();
+   public ORIGIN removeExcludeUnlistedClasses();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: PersistenceUnit ElementName: persistence:properties ElementType : properties
@@ -323,16 +243,16 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
     * If not already created, a new <code>properties</code> element with the given value will be created. Otherwise, the
     * existing <code>properties</code> element will be returned.
     * 
-    * @return a new or existing instance of <code>Properties<PersistenceUnit<T>></code>
+    * @return a new or existing instance of <code>Properties<ORIGIN></code>
     */
-   public Properties<PersistenceUnit<T>> getOrCreateProperties();
+   public PROPERTIES getOrCreateProperties();
 
    /**
     * Removes the <code>properties</code> element
     * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> removeProperties();
+   public ORIGIN removeProperties();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: PersistenceUnit ElementName: xsd:string ElementType : name
@@ -343,9 +263,9 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
     * Sets the <code>name</code> attribute
     * 
     * @param name the value for the attribute <code>name</code>
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> name(String name);
+   public ORIGIN name(String name);
 
    /**
     * Returns the <code>name</code> attribute
@@ -357,50 +277,17 @@ public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<Pers
    /**
     * Removes the <code>name</code> attribute
     * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public PersistenceUnit<T> removeName();
-
-   // --------------------------------------------------------------------------------------------------------||
-   // ClassName: PersistenceUnit ElementName: persistence:persistence-unit-transaction-type ElementType :
-   // transaction-type
-   // MaxOccurs: - isGeneric: true isAttribute: true isEnum: true isDataType: false
-   // --------------------------------------------------------------------------------------------------------||
-
+   public ORIGIN removeName();
+   
    /**
     * Sets the <code>transaction-type</code> attribute
     * 
     * @param transactionType the value for the attribute <code>transaction-type</code>
     * @return the current instance of <code>PersistenceUnit<T></code>
     */
-   public PersistenceUnit<T> transactionType(PersistenceUnitTransactionType transactionType);
+   public ORIGIN transactionType(String transactionType);
+   
 
-   /**
-    * Sets the <code>transaction-type</code> attribute
-    * 
-    * @param transactionType the value for the attribute <code>transaction-type</code>
-    * @return the current instance of <code>PersistenceUnit<T></code>
-    */
-   public PersistenceUnit<T> transactionType(String transactionType);
-
-   /**
-    * Returns the <code>transaction-type</code> attribute
-    * 
-    * @return the value defined for the attribute <code>transaction-type</code>
-    */
-   public PersistenceUnitTransactionType getTransactionType();
-
-   /**
-    * Returns the <code>transaction-type</code> attribute
-    * 
-    * @return the value found for the element <code>transaction-type</code>
-    */
-   public String getTransactionTypeAsString();
-
-   /**
-    * Removes the <code>transaction-type</code> attribute
-    * 
-    * @return the current instance of <code>PersistenceUnit<T></code>
-    */
-   public PersistenceUnit<T> removeTransactionType();
 }

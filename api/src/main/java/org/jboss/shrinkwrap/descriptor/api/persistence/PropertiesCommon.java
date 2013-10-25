@@ -1,20 +1,20 @@
-package org.jboss.shrinkwrap.descriptor.api.persistence10;
+/**
+ * Copyright 2013 Red Hat, Inc. and/or its affiliates.
+ *
+ * Licensed under the Eclipse Public License version 1.0, available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ */
+
+package org.jboss.shrinkwrap.descriptor.api.persistence;
 
 import java.util.List;
 
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.persistence.PropertiesCommon;
-
 /**
- * This interface defines the contract for the <code> properties </code> xsd type
  * 
- * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
- * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
+ * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface Properties<T> extends Child<T>,
-         PropertiesCommon<Properties<T>, Property<Properties<T>>>
+public interface PropertiesCommon<ORIGIN extends PropertiesCommon<ORIGIN, PROPERTY>, PROPERTY extends PropertyCommon<PROPERTY>>
 {
-
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: Properties ElementName: persistence:property ElementType : property
    // MaxOccurs: -unbounded isGeneric: true isAttribute: false isEnum: false isDataType: false
@@ -26,26 +26,27 @@ public interface Properties<T> extends Child<T>,
     * 
     * @return the instance defined for the element <code>property</code>
     */
-   public Property<Properties<T>> getOrCreateProperty();
+   public PROPERTY getOrCreateProperty();
 
    /**
     * Creates a new <code>property</code> element
     * 
-    * @return the new created instance of <code>Property<Properties<T>></code>
+    * @return the new created instance of <code>Property<ORIGIN></code>
     */
-   public Property<Properties<T>> createProperty();
+   public PROPERTY createProperty();
 
    /**
     * Returns all <code>property</code> elements
     * 
     * @return list of <code>property</code>
     */
-   public List<Property<Properties<T>>> getAllProperty();
+   public List<PROPERTY> getAllProperty();
 
    /**
     * Removes all <code>property</code> elements
     * 
-    * @return the current instance of <code>Property<Properties<T>></code>
+    * @return the current instance of <code>Property<ORIGIN></code>
     */
-   public Properties<T> removeAllProperty();
+   public ORIGIN removeAllProperty();
+
 }
