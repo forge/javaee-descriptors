@@ -11,7 +11,8 @@ import org.jboss.shrinkwrap.descriptor.api.persistence.PersistenceUnitCommon;
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
  * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
  */
-public interface PersistenceUnit<T> extends Child<T>, PersistenceUnitCommon<PersistenceUnit<T>, Properties<PersistenceUnit<T>>>
+public interface PersistenceUnit<T> extends Child<T>,
+         PersistenceUnitCommon<T, PersistenceUnit<T>, Properties<PersistenceUnit<T>>>
 {
 
    // --------------------------------------------------------------------------------------------------------||

@@ -7,7 +7,7 @@ import org.jboss.shrinkwrap.descriptor.api.persistence.PropertyCommon;
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
  * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
  */
-public interface Property<T> extends Child<T>, PropertyCommon<Property<T>>
+public interface Property<T> extends Child<T>, PropertyCommon<T, Property<T>>
 {
  
    // --------------------------------------------------------------------------------------------------------||

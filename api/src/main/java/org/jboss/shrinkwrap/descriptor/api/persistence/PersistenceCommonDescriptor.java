@@ -15,7 +15,7 @@ import org.jboss.shrinkwrap.descriptor.api.Descriptor;
  * 
  * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface PersistenceCommonDescriptor<T, PERSISTENCE_UNIT extends PersistenceUnitCommon<PERSISTENCE_UNIT, ?>>
+public interface PersistenceCommonDescriptor<T, PERSISTENCE_UNIT extends PersistenceUnitCommon<T, PERSISTENCE_UNIT, ?>>
          extends Descriptor
 {
 

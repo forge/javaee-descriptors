@@ -9,12 +9,15 @@ package org.jboss.shrinkwrap.descriptor.api.persistence;
 
 import java.util.List;
 
+import org.jboss.shrinkwrap.descriptor.api.Child;
+
 /**
  * 
  * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
 @SuppressWarnings("rawtypes")
-public interface PersistenceUnitCommon<ORIGIN extends PersistenceUnitCommon<ORIGIN, PROPERTIES>, PROPERTIES extends PropertiesCommon>
+public interface PersistenceUnitCommon<PARENT, ORIGIN extends PersistenceUnitCommon<PARENT, ORIGIN, PROPERTIES>, PROPERTIES extends PropertiesCommon>
+         extends Child<PARENT>
 {
 
    // --------------------------------------------------------------------------------------------------------||
@@ -280,7 +283,7 @@ public interface PersistenceUnitCommon<ORIGIN extends PersistenceUnitCommon<ORIG
     * @return the current instance of <code>ORIGIN</code>
     */
    public ORIGIN removeName();
-   
+
    /**
     * Sets the <code>transaction-type</code> attribute
     * 
@@ -288,6 +291,5 @@ public interface PersistenceUnitCommon<ORIGIN extends PersistenceUnitCommon<ORIG
     * @return the current instance of <code>PersistenceUnit<T></code>
     */
    public ORIGIN transactionType(String transactionType);
-   
 
 }

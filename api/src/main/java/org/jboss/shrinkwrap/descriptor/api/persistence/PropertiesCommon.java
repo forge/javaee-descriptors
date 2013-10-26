@@ -9,11 +9,14 @@ package org.jboss.shrinkwrap.descriptor.api.persistence;
 
 import java.util.List;
 
+import org.jboss.shrinkwrap.descriptor.api.Child;
+
 /**
  * 
  * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface PropertiesCommon<ORIGIN extends PropertiesCommon<ORIGIN, PROPERTY>, PROPERTY extends PropertyCommon<PROPERTY>>
+public interface PropertiesCommon<PARENT, ORIGIN extends PropertiesCommon<PARENT, ORIGIN, PROPERTY>, PROPERTY extends PropertyCommon<ORIGIN, PROPERTY>>
+         extends Child<PARENT>
 {
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: Properties ElementName: persistence:property ElementType : property

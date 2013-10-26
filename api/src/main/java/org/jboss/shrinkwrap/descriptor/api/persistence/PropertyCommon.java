@@ -7,12 +7,13 @@
 
 package org.jboss.shrinkwrap.descriptor.api.persistence;
 
+import org.jboss.shrinkwrap.descriptor.api.Child;
 
 /**
  * 
  * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface PropertyCommon<ORIGIN extends PropertyCommon<ORIGIN>>
+public interface PropertyCommon<PARENT, ORIGIN extends PropertyCommon<PARENT, ORIGIN>> extends Child<PARENT>
 {
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: Property ElementName: xsd:string ElementType : name
