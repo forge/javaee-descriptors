@@ -7,7 +7,7 @@
    </parent>
    <groupId>org.jboss.forge.descriptors</groupId>
    <artifactId>javaee-descriptors-parent</artifactId>
-   <version>0.0.2.Final</version>
+   <version>0.0.3-SNAPSHOT</version>
    <packaging>pom</packaging>
    <name>Forge Java EE Descriptors :: Parent</name>
    <modules>
@@ -63,6 +63,6 @@
       <connection>scm:git:git://github.com/forge/javaee-descriptors.git</connection>
       <developerConnection>scm:git:git@github.com:forge/javaee-descriptors.git</developerConnection>
       <url>http://github.com/forge/javaee-descriptors</url>
-      <tag>0.0.2.Final</tag>
+      <tag>HEAD</tag>
    </scm>
 </project>

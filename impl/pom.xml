@@ -3,7 +3,7 @@
    <parent>
       <groupId>org.jboss.forge.descriptors</groupId>
       <artifactId>javaee-descriptors-parent</artifactId>
-      <version>0.0.2.Final</version>
+      <version>0.0.3-SNAPSHOT</version>
    </parent>
    <artifactId>javaee-descriptors</artifactId>
    <name>Forge Java EE Descriptors</name>
