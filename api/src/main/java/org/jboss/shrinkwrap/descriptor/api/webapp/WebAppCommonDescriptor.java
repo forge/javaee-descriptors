@@ -11,6 +11,7 @@ import java.util.List;
 
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.javaee.ParamValueCommonType;
+import org.jboss.shrinkwrap.descriptor.api.webcommon.ErrorPageCommonType;
 import org.jboss.shrinkwrap.descriptor.api.webcommon.ServletCommonType;
 import org.jboss.shrinkwrap.descriptor.api.webcommon.ServletMappingCommonType;
 
@@ -18,7 +19,7 @@ import org.jboss.shrinkwrap.descriptor.api.webcommon.ServletMappingCommonType;
  * 
  * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T, PARAM, SERVLET_TYPE, SERVLET_MAPPING_TYPE>, PARAM extends ParamValueCommonType<PARAM>, SERVLET_TYPE extends ServletCommonType<SERVLET_TYPE>, SERVLET_MAPPING_TYPE extends ServletMappingCommonType<SERVLET_MAPPING_TYPE>>
+public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T, PARAM, SERVLET_TYPE, SERVLET_MAPPING_TYPE, ERROR_PAGE_TYPE>, PARAM extends ParamValueCommonType<PARAM>, SERVLET_TYPE extends ServletCommonType<SERVLET_TYPE>, SERVLET_MAPPING_TYPE extends ServletMappingCommonType<SERVLET_MAPPING_TYPE>, ERROR_PAGE_TYPE extends ErrorPageCommonType<T, ERROR_PAGE_TYPE>>
          extends Descriptor
 {
    // --------------------------------------------------------------------------------------------------------||
@@ -109,7 +110,7 @@ public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T, PARA
     * @return the current instance of <code>ServletType<WebAppDescriptor></code>
     */
    public T removeAllServlet();
-   
+
    /**
     * If not already created, a new <code>servlet-mapping</code> element will be created and returned. Otherwise, the
     * first existing <code>servlet-mapping</code> element will be returned.
@@ -139,6 +140,37 @@ public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T, PARA
     */
    public T removeAllServletMapping();
 
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: WebAppDescriptor ElementName: javaee:error-pageType ElementType : error-page
+   // MaxOccurs: -unbounded isGeneric: false isAttribute: false isEnum: false isDataType: false
+   // --------------------------------------------------------------------------------------------------------||
 
+   /**
+    * If not already created, a new <code>error-page</code> element will be created and returned. Otherwise, the first
+    * existing <code>error-page</code> element will be returned.
+    * 
+    * @return the instance defined for the element <code>error-page</code>
+    */
+   public ERROR_PAGE_TYPE getOrCreateErrorPage();
 
+   /**
+    * Creates a new <code>error-page</code> element
+    * 
+    * @return the new created instance of <code>ErrorPageType<WebAppDescriptor></code>
+    */
+   public ERROR_PAGE_TYPE createErrorPage();
+
+   /**
+    * Returns all <code>error-page</code> elements
+    * 
+    * @return list of <code>error-page</code>
+    */
+   public List<ERROR_PAGE_TYPE> getAllErrorPage();
+
+   /**
+    * Removes all <code>error-page</code> elements
+    * 
+    * @return the current instance of <code>ErrorPageType<WebAppDescriptor></code>
+    */
+   public T removeAllErrorPage();
 }

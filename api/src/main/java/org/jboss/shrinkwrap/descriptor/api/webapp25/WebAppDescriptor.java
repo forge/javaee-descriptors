@@ -40,7 +40,7 @@ public interface WebAppDescriptor
          extends
          Descriptor,
          DescriptorNamespace<WebAppDescriptor>,
-         WebAppCommonDescriptor<WebAppDescriptor, ParamValueType<WebAppDescriptor>, ServletType<WebAppDescriptor>, ServletMappingType<WebAppDescriptor>>
+         WebAppCommonDescriptor<WebAppDescriptor, ParamValueType<WebAppDescriptor>, ServletType<WebAppDescriptor>, ServletMappingType<WebAppDescriptor>, ErrorPageType<WebAppDescriptor>>
 {
 
    // --------------------------------------------------------------------------------------------------------||

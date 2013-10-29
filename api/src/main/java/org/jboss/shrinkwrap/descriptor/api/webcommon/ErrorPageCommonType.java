@@ -1,17 +1,21 @@
-package org.jboss.shrinkwrap.descriptor.api.webcommon30;
+/**
+ * Copyright 2013 Red Hat, Inc. and/or its affiliates.
+ *
+ * Licensed under the Eclipse Public License version 1.0, available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ */
+
+package org.jboss.shrinkwrap.descriptor.api.webcommon;
 
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.webcommon.ErrorPageCommonType;
 
 /**
- * This interface defines the contract for the <code> error-pageType </code> xsd type
+ * Common implementation of ErrorPage
  * 
- * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
- * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
+ * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface ErrorPageType<T> extends Child<T>, ErrorPageCommonType<T, ErrorPageType<T>>
+public interface ErrorPageCommonType<PARENT, ORIGIN extends ErrorPageCommonType<PARENT, ORIGIN>> extends Child<PARENT>
 {
-
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: ErrorPageType ElementName: javaee:xsdPositiveIntegerType ElementType : error-code
    // MaxOccurs: - isGeneric: true isAttribute: false isEnum: false isDataType: true
@@ -21,9 +25,9 @@ public interface ErrorPageType<T> extends Child<T>, ErrorPageCommonType<T, Error
     * Sets the <code>error-code</code> element
     * 
     * @param errorCode the value for the element <code>error-code</code>
-    * @return the current instance of <code>ErrorPageType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public ErrorPageType<T> errorCode(String errorCode);
+   public ORIGIN errorCode(String errorCode);
 
    /**
     * Returns the <code>error-code</code> element
@@ -35,9 +39,9 @@ public interface ErrorPageType<T> extends Child<T>, ErrorPageCommonType<T, Error
    /**
     * Removes the <code>error-code</code> element
     * 
-    * @return the current instance of <code>ErrorPageType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public ErrorPageType<T> removeErrorCode();
+   public ORIGIN removeErrorCode();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: ErrorPageType ElementName: xsd:token ElementType : exception-type
@@ -48,9 +52,9 @@ public interface ErrorPageType<T> extends Child<T>, ErrorPageCommonType<T, Error
     * Sets the <code>exception-type</code> element
     * 
     * @param exceptionType the value for the element <code>exception-type</code>
-    * @return the current instance of <code>ErrorPageType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public ErrorPageType<T> exceptionType(String exceptionType);
+   public ORIGIN exceptionType(String exceptionType);
 
    /**
     * Returns the <code>exception-type</code> element
@@ -62,9 +66,9 @@ public interface ErrorPageType<T> extends Child<T>, ErrorPageCommonType<T, Error
    /**
     * Removes the <code>exception-type</code> element
     * 
-    * @return the current instance of <code>ErrorPageType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public ErrorPageType<T> removeExceptionType();
+   public ORIGIN removeExceptionType();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: ErrorPageType ElementName: javaee:string ElementType : location
@@ -75,9 +79,9 @@ public interface ErrorPageType<T> extends Child<T>, ErrorPageCommonType<T, Error
     * Sets the <code>location</code> element
     * 
     * @param location the value for the element <code>location</code>
-    * @return the current instance of <code>ErrorPageType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public ErrorPageType<T> location(String location);
+   public ORIGIN location(String location);
 
    /**
     * Returns the <code>location</code> element
@@ -89,9 +93,9 @@ public interface ErrorPageType<T> extends Child<T>, ErrorPageCommonType<T, Error
    /**
     * Removes the <code>location</code> element
     * 
-    * @return the current instance of <code>ErrorPageType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public ErrorPageType<T> removeLocation();
+   public ORIGIN removeLocation();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: ErrorPageType ElementName: xsd:ID ElementType : id
@@ -102,9 +106,9 @@ public interface ErrorPageType<T> extends Child<T>, ErrorPageCommonType<T, Error
     * Sets the <code>id</code> attribute
     * 
     * @param id the value for the attribute <code>id</code>
-    * @return the current instance of <code>ErrorPageType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public ErrorPageType<T> id(String id);
+   public ORIGIN id(String id);
 
    /**
     * Returns the <code>id</code> attribute
@@ -116,7 +120,7 @@ public interface ErrorPageType<T> extends Child<T>, ErrorPageCommonType<T, Error
    /**
     * Removes the <code>id</code> attribute
     * 
-    * @return the current instance of <code>ErrorPageType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public ErrorPageType<T> removeId();
+   public ORIGIN removeId();
 }
