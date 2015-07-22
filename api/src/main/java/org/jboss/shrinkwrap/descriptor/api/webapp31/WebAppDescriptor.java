@@ -58,7 +58,7 @@ public interface WebAppDescriptor
          extends
          Descriptor,
          DescriptorNamespace<WebAppDescriptor>,
-         WebAppCommonDescriptor<WebAppDescriptor, ParamValueType<WebAppDescriptor>, ServletType<WebAppDescriptor>, ServletMappingType<WebAppDescriptor>, ErrorPageType<WebAppDescriptor>>
+         WebAppCommonDescriptor<WebAppDescriptor, ParamValueType<WebAppDescriptor>, ServletType<WebAppDescriptor>, ServletMappingType<WebAppDescriptor>, ErrorPageType<WebAppDescriptor>, SecurityConstraintType<WebAppDescriptor>, LoginConfigType<WebAppDescriptor>, SecurityRoleType<WebAppDescriptor>>
 {
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: WebAppDescriptor ElementName: javaee:filterType ElementType : filter
@@ -173,6 +173,7 @@ public interface WebAppDescriptor
     * 
     * @return the instance defined for the element <code>servlet</code>
     */
+   @Override
    public ServletType<WebAppDescriptor> getOrCreateServlet();
 
    /**
@@ -180,6 +181,7 @@ public interface WebAppDescriptor
     * 
     * @return the new created instance of <code>ServletType<WebAppDescriptor></code>
     */
+   @Override
    public ServletType<WebAppDescriptor> createServlet();
 
    /**
@@ -187,6 +189,7 @@ public interface WebAppDescriptor
     * 
     * @return list of <code>servlet</code>
     */
+   @Override
    public List<ServletType<WebAppDescriptor>> getAllServlet();
 
    /**
@@ -194,6 +197,7 @@ public interface WebAppDescriptor
     * 
     * @return the current instance of <code>ServletType<WebAppDescriptor></code>
     */
+   @Override
    public WebAppDescriptor removeAllServlet();
 
    // --------------------------------------------------------------------------------------------------------||
@@ -207,6 +211,7 @@ public interface WebAppDescriptor
     * 
     * @return the instance defined for the element <code>servlet-mapping</code>
     */
+   @Override
    public ServletMappingType<WebAppDescriptor> getOrCreateServletMapping();
 
    /**
@@ -214,6 +219,7 @@ public interface WebAppDescriptor
     * 
     * @return the new created instance of <code>ServletMappingType<WebAppDescriptor></code>
     */
+   @Override
    public ServletMappingType<WebAppDescriptor> createServletMapping();
 
    /**
@@ -221,6 +227,7 @@ public interface WebAppDescriptor
     * 
     * @return list of <code>servlet-mapping</code>
     */
+   @Override
    public List<ServletMappingType<WebAppDescriptor>> getAllServletMapping();
 
    /**
@@ -228,6 +235,7 @@ public interface WebAppDescriptor
     * 
     * @return the current instance of <code>ServletMappingType<WebAppDescriptor></code>
     */
+   @Override
    public WebAppDescriptor removeAllServletMapping();
 
    // --------------------------------------------------------------------------------------------------------||
@@ -343,6 +351,7 @@ public interface WebAppDescriptor
     * 
     * @return the instance defined for the element <code>error-page</code>
     */
+   @Override
    public ErrorPageType<WebAppDescriptor> getOrCreateErrorPage();
 
    /**
@@ -350,6 +359,7 @@ public interface WebAppDescriptor
     * 
     * @return the new created instance of <code>ErrorPageType<WebAppDescriptor></code>
     */
+   @Override
    public ErrorPageType<WebAppDescriptor> createErrorPage();
 
    /**
@@ -357,6 +367,7 @@ public interface WebAppDescriptor
     * 
     * @return list of <code>error-page</code>
     */
+   @Override
    public List<ErrorPageType<WebAppDescriptor>> getAllErrorPage();
 
    /**
@@ -364,6 +375,7 @@ public interface WebAppDescriptor
     * 
     * @return the current instance of <code>ErrorPageType<WebAppDescriptor></code>
     */
+   @Override
    public WebAppDescriptor removeAllErrorPage();
 
    // --------------------------------------------------------------------------------------------------------||
@@ -411,6 +423,7 @@ public interface WebAppDescriptor
     * 
     * @return the instance defined for the element <code>security-constraint</code>
     */
+   @Override
    public SecurityConstraintType<WebAppDescriptor> getOrCreateSecurityConstraint();
 
    /**
@@ -418,6 +431,7 @@ public interface WebAppDescriptor
     * 
     * @return the new created instance of <code>SecurityConstraintType<WebAppDescriptor></code>
     */
+   @Override
    public SecurityConstraintType<WebAppDescriptor> createSecurityConstraint();
 
    /**
@@ -425,6 +439,7 @@ public interface WebAppDescriptor
     * 
     * @return list of <code>security-constraint</code>
     */
+   @Override
    public List<SecurityConstraintType<WebAppDescriptor>> getAllSecurityConstraint();
 
    /**
@@ -432,6 +447,7 @@ public interface WebAppDescriptor
     * 
     * @return the current instance of <code>SecurityConstraintType<WebAppDescriptor></code>
     */
+   @Override
    public WebAppDescriptor removeAllSecurityConstraint();
 
    // --------------------------------------------------------------------------------------------------------||
@@ -445,6 +461,7 @@ public interface WebAppDescriptor
     * 
     * @return the instance defined for the element <code>login-config</code>
     */
+   @Override
    public LoginConfigType<WebAppDescriptor> getOrCreateLoginConfig();
 
    /**
@@ -452,6 +469,7 @@ public interface WebAppDescriptor
     * 
     * @return the new created instance of <code>LoginConfigType<WebAppDescriptor></code>
     */
+   @Override
    public LoginConfigType<WebAppDescriptor> createLoginConfig();
 
    /**
@@ -459,6 +477,7 @@ public interface WebAppDescriptor
     * 
     * @return list of <code>login-config</code>
     */
+   @Override
    public List<LoginConfigType<WebAppDescriptor>> getAllLoginConfig();
 
    /**
@@ -466,6 +485,7 @@ public interface WebAppDescriptor
     * 
     * @return the current instance of <code>LoginConfigType<WebAppDescriptor></code>
     */
+   @Override
    public WebAppDescriptor removeAllLoginConfig();
 
    // --------------------------------------------------------------------------------------------------------||
@@ -479,6 +499,7 @@ public interface WebAppDescriptor
     * 
     * @return the instance defined for the element <code>security-role</code>
     */
+   @Override
    public SecurityRoleType<WebAppDescriptor> getOrCreateSecurityRole();
 
    /**
@@ -486,6 +507,7 @@ public interface WebAppDescriptor
     * 
     * @return the new created instance of <code>SecurityRoleType<WebAppDescriptor></code>
     */
+   @Override
    public SecurityRoleType<WebAppDescriptor> createSecurityRole();
 
    /**
@@ -493,6 +515,7 @@ public interface WebAppDescriptor
     * 
     * @return list of <code>security-role</code>
     */
+   @Override
    public List<SecurityRoleType<WebAppDescriptor>> getAllSecurityRole();
 
    /**
@@ -500,6 +523,7 @@ public interface WebAppDescriptor
     * 
     * @return the current instance of <code>SecurityRoleType<WebAppDescriptor></code>
     */
+   @Override
    public WebAppDescriptor removeAllSecurityRole();
 
    // --------------------------------------------------------------------------------------------------------||

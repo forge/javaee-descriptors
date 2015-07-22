@@ -1,19 +1,24 @@
-package org.jboss.shrinkwrap.descriptor.api.javaee7;
+/**
+ * Copyright 2015 Red Hat, Inc. and/or its affiliates.
+ *
+ * Licensed under the Eclipse Public License version 1.0, available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ */
+
+package org.jboss.shrinkwrap.descriptor.api.javaee;
 
 import java.util.List;
 
 import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.javaee.SecurityRoleCommonType;
 
 /**
- * This interface defines the contract for the <code> security-roleType </code> xsd type
+ * Common implementation of SecurityRoleType
  * 
- * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
- * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
+ * @author <a href="mailto:ggastald@redhat.com">George Gastaldi</a>
  */
-public interface SecurityRoleType<T> extends Child<T>, SecurityRoleCommonType<T, SecurityRoleType<T>>
+public interface SecurityRoleCommonType<PARENT, ORIGIN extends SecurityRoleCommonType<PARENT, ORIGIN>>
+         extends Child<PARENT>
 {
-
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: SecurityRoleType ElementName: xsd:string ElementType : description
    // MaxOccurs: -unbounded isGeneric: true isAttribute: false isEnum: false isDataType: true
@@ -24,26 +29,23 @@ public interface SecurityRoleType<T> extends Child<T>, SecurityRoleCommonType<T,
     * element
     * 
     * @param values list of <code>description</code> objects
-    * @return the current instance of <code>SecurityRoleType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public SecurityRoleType<T> description(String... values);
+   public ORIGIN description(String... values);
 
    /**
     * Returns all <code>description</code> elements
     * 
     * @return list of <code>description</code>
     */
-   @Override
    public List<String> getAllDescription();
 
    /**
     * Removes the <code>description</code> element
     * 
-    * @return the current instance of <code>SecurityRoleType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public SecurityRoleType<T> removeAllDescription();
+   public ORIGIN removeAllDescription();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: SecurityRoleType ElementName: xsd:token ElementType : role-name
@@ -54,26 +56,23 @@ public interface SecurityRoleType<T> extends Child<T>, SecurityRoleCommonType<T,
     * Sets the <code>role-name</code> element
     * 
     * @param roleName the value for the element <code>role-name</code>
-    * @return the current instance of <code>SecurityRoleType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public SecurityRoleType<T> roleName(String roleName);
+   public ORIGIN roleName(String roleName);
 
    /**
     * Returns the <code>role-name</code> element
     * 
     * @return the node defined for the element <code>role-name</code>
     */
-   @Override
    public String getRoleName();
 
    /**
     * Removes the <code>role-name</code> element
     * 
-    * @return the current instance of <code>SecurityRoleType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public SecurityRoleType<T> removeRoleName();
+   public ORIGIN removeRoleName();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: SecurityRoleType ElementName: xsd:ID ElementType : id
@@ -84,24 +83,21 @@ public interface SecurityRoleType<T> extends Child<T>, SecurityRoleCommonType<T,
     * Sets the <code>id</code> attribute
     * 
     * @param id the value for the attribute <code>id</code>
-    * @return the current instance of <code>SecurityRoleType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public SecurityRoleType<T> id(String id);
+   public ORIGIN id(String id);
 
    /**
     * Returns the <code>id</code> attribute
     * 
     * @return the value defined for the attribute <code>id</code>
     */
-   @Override
    public String getId();
 
    /**
     * Removes the <code>id</code> attribute
     * 
-    * @return the current instance of <code>SecurityRoleType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public SecurityRoleType<T> removeId();
+   public ORIGIN removeId();
 }

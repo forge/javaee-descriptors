@@ -1,19 +1,20 @@
-package org.jboss.shrinkwrap.descriptor.api.webcommon31;
+/**
+ * Copyright 2015 Red Hat, Inc. and/or its affiliates.
+ *
+ * Licensed under the Eclipse Public License version 1.0, available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ */
+
+package org.jboss.shrinkwrap.descriptor.api.webcommon;
 
 import java.util.List;
 
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.webcommon.UserDataConstraintCommonType;
-
 /**
- * This interface defines the contract for the <code> user-data-constraintType </code> xsd type
  * 
- * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
- * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
+ * @author <a href="mailto:ggastald@redhat.com">George Gastaldi</a>
  */
-public interface UserDataConstraintType<T> extends Child<T>, UserDataConstraintCommonType<UserDataConstraintType<T>>
+public interface UserDataConstraintCommonType<ORIGIN extends UserDataConstraintCommonType<ORIGIN>>
 {
-
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: UserDataConstraintType ElementName: xsd:string ElementType : description
    // MaxOccurs: -unbounded isGeneric: true isAttribute: false isEnum: false isDataType: true
@@ -24,26 +25,23 @@ public interface UserDataConstraintType<T> extends Child<T>, UserDataConstraintC
     * element
     * 
     * @param values list of <code>description</code> objects
-    * @return the current instance of <code>UserDataConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public UserDataConstraintType<T> description(String... values);
+   public ORIGIN description(String... values);
 
    /**
     * Returns all <code>description</code> elements
     * 
     * @return list of <code>description</code>
     */
-   @Override
    public List<String> getAllDescription();
 
    /**
     * Removes the <code>description</code> element
     * 
-    * @return the current instance of <code>UserDataConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public UserDataConstraintType<T> removeAllDescription();
+   public ORIGIN removeAllDescription();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: UserDataConstraintType ElementName: javaee:transport-guaranteeType ElementType : transport-guarantee
@@ -53,41 +51,23 @@ public interface UserDataConstraintType<T> extends Child<T>, UserDataConstraintC
     * Sets the <code>transport-guarantee</code> element
     * 
     * @param transportGuarantee the value for the element <code>transport-guarantee</code>
-    * @return the current instance of <code>UserDataConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   public UserDataConstraintType<T> transportGuarantee(TransportGuaranteeType transportGuarantee);
-
-   /**
-    * Sets the <code>transport-guarantee</code> element
-    * 
-    * @param transportGuarantee the value for the element <code>transport-guarantee</code>
-    * @return the current instance of <code>UserDataConstraintType<T></code>
-    */
-   @Override
-   public UserDataConstraintType<T> transportGuarantee(String transportGuarantee);
+   public ORIGIN transportGuarantee(String transportGuarantee);
 
    /**
     * Returns the <code>transport-guarantee</code> element
     * 
     * @return the value found for the element <code>transport-guarantee</code>
     */
-   public TransportGuaranteeType getTransportGuarantee();
-
-   /**
-    * Returns the <code>transport-guarantee</code> element
-    * 
-    * @return the value found for the element <code>transport-guarantee</code>
-    */
-   @Override
    public String getTransportGuaranteeAsString();
 
    /**
     * Removes the <code>transport-guarantee</code> attribute
     * 
-    * @return the current instance of <code>UserDataConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public UserDataConstraintType<T> removeTransportGuarantee();
+   public ORIGIN removeTransportGuarantee();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: UserDataConstraintType ElementName: xsd:ID ElementType : id
@@ -98,24 +78,21 @@ public interface UserDataConstraintType<T> extends Child<T>, UserDataConstraintC
     * Sets the <code>id</code> attribute
     * 
     * @param id the value for the attribute <code>id</code>
-    * @return the current instance of <code>UserDataConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public UserDataConstraintType<T> id(String id);
+   public ORIGIN id(String id);
 
    /**
     * Returns the <code>id</code> attribute
     * 
     * @return the value defined for the attribute <code>id</code>
     */
-   @Override
    public String getId();
 
    /**
     * Removes the <code>id</code> attribute
     * 
-    * @return the current instance of <code>UserDataConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public UserDataConstraintType<T> removeId();
+   public ORIGIN removeId();
 }

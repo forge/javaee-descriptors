@@ -1,19 +1,20 @@
-package org.jboss.shrinkwrap.descriptor.api.webcommon31;
+/**
+ * Copyright 2015 Red Hat, Inc. and/or its affiliates.
+ *
+ * Licensed under the Eclipse Public License version 1.0, available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ */
+
+package org.jboss.shrinkwrap.descriptor.api.webcommon;
 
 import java.util.List;
 
-import org.jboss.shrinkwrap.descriptor.api.Child;
-import org.jboss.shrinkwrap.descriptor.api.webcommon.AuthConstraintCommonType;
-
 /**
- * This interface defines the contract for the <code> auth-constraintType </code> xsd type
  * 
- * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
- * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
+ * @author <a href="mailto:ggastald@redhat.com">George Gastaldi</a>
  */
-public interface AuthConstraintType<T> extends Child<T>, AuthConstraintCommonType<AuthConstraintType<T>>
+public interface AuthConstraintCommonType<ORIGIN extends AuthConstraintCommonType<ORIGIN>>
 {
-
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: AuthConstraintType ElementName: xsd:string ElementType : description
    // MaxOccurs: -unbounded isGeneric: true isAttribute: false isEnum: false isDataType: true
@@ -24,26 +25,23 @@ public interface AuthConstraintType<T> extends Child<T>, AuthConstraintCommonTyp
     * element
     * 
     * @param values list of <code>description</code> objects
-    * @return the current instance of <code>AuthConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public AuthConstraintType<T> description(String... values);
+   public ORIGIN description(String... values);
 
    /**
     * Returns all <code>description</code> elements
     * 
     * @return list of <code>description</code>
     */
-   @Override
    public List<String> getAllDescription();
 
    /**
     * Removes the <code>description</code> element
     * 
-    * @return the current instance of <code>AuthConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public AuthConstraintType<T> removeAllDescription();
+   public ORIGIN removeAllDescription();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: AuthConstraintType ElementName: xsd:token ElementType : role-name
@@ -54,26 +52,23 @@ public interface AuthConstraintType<T> extends Child<T>, AuthConstraintCommonTyp
     * Creates for all String objects representing <code>role-name</code> elements, a new <code>role-name</code> element
     * 
     * @param values list of <code>role-name</code> objects
-    * @return the current instance of <code>AuthConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public AuthConstraintType<T> roleName(String... values);
+   public ORIGIN roleName(String... values);
 
    /**
     * Returns all <code>role-name</code> elements
     * 
     * @return list of <code>role-name</code>
     */
-   @Override
    public List<String> getAllRoleName();
 
    /**
     * Removes the <code>role-name</code> element
     * 
-    * @return the current instance of <code>AuthConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public AuthConstraintType<T> removeAllRoleName();
+   public ORIGIN removeAllRoleName();
 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: AuthConstraintType ElementName: xsd:ID ElementType : id
@@ -84,24 +79,22 @@ public interface AuthConstraintType<T> extends Child<T>, AuthConstraintCommonTyp
     * Sets the <code>id</code> attribute
     * 
     * @param id the value for the attribute <code>id</code>
-    * @return the current instance of <code>AuthConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public AuthConstraintType<T> id(String id);
+   public ORIGIN id(String id);
 
    /**
     * Returns the <code>id</code> attribute
     * 
     * @return the value defined for the attribute <code>id</code>
     */
-   @Override
    public String getId();
 
    /**
     * Removes the <code>id</code> attribute
     * 
-    * @return the current instance of <code>AuthConstraintType<T></code>
+    * @return the current instance of <code>ORIGIN</code>
     */
-   @Override
-   public AuthConstraintType<T> removeId();
+   public ORIGIN removeId();
+
 }

@@ -1,166 +1,198 @@
-package org.jboss.shrinkwrap.descriptor.api.webcommon31; 
+package org.jboss.shrinkwrap.descriptor.api.webcommon31;
 
 import java.util.List;
 
 import org.jboss.shrinkwrap.descriptor.api.Child;
+import org.jboss.shrinkwrap.descriptor.api.webcommon.WebResourceCollectionCommonType;
+
 /**
- * This interface defines the contract for the <code> web-resource-collectionType </code> xsd type 
+ * This interface defines the contract for the <code> web-resource-collectionType </code> xsd type
+ * 
  * @author <a href="mailto:ralf.battenfeld@bluewin.ch">Ralf Battenfeld</a>
  * @author <a href="mailto:alr@jboss.org">Andrew Lee Rubinger</a>
  */
-public interface WebResourceCollectionType<T> extends Child<T>
+public interface WebResourceCollectionType<T>
+         extends Child<T>, WebResourceCollectionCommonType<WebResourceCollectionType<T>>
 {
- 
+
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: WebResourceCollectionType ElementName: xsd:token ElementType : web-resource-name
-   // MaxOccurs: -  isGeneric: true   isAttribute: false isEnum: false isDataType: true
+   // MaxOccurs: - isGeneric: true isAttribute: false isEnum: false isDataType: true
    // --------------------------------------------------------------------------------------------------------||
 
    /**
     * Sets the <code>web-resource-name</code> element
-    * @param webResourceName the value for the element <code>web-resource-name</code> 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * 
+    * @param webResourceName the value for the element <code>web-resource-name</code>
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
+   @Override
    public WebResourceCollectionType<T> webResourceName(String webResourceName);
 
    /**
     * Returns the <code>web-resource-name</code> element
-    * @return the node defined for the element <code>web-resource-name</code> 
+    * 
+    * @return the node defined for the element <code>web-resource-name</code>
     */
+   @Override
    public String getWebResourceName();
 
    /**
-    * Removes the <code>web-resource-name</code> element 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * Removes the <code>web-resource-name</code> element
+    * 
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
+   @Override
    public WebResourceCollectionType<T> removeWebResourceName();
 
- 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: WebResourceCollectionType ElementName: xsd:string ElementType : description
-   // MaxOccurs: -unbounded  isGeneric: true   isAttribute: false isEnum: false isDataType: true
+   // MaxOccurs: -unbounded isGeneric: true isAttribute: false isEnum: false isDataType: true
    // --------------------------------------------------------------------------------------------------------||
 
    /**
-    * Creates for all String objects representing <code>description</code> elements, 
-    * a new <code>description</code> element 
-    * @param values list of <code>description</code> objects 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * Creates for all String objects representing <code>description</code> elements, a new <code>description</code>
+    * element
+    * 
+    * @param values list of <code>description</code> objects
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
-   public WebResourceCollectionType<T> description(String ... values);
+   @Override
+   public WebResourceCollectionType<T> description(String... values);
 
    /**
     * Returns all <code>description</code> elements
-    * @return list of <code>description</code> 
+    * 
+    * @return list of <code>description</code>
     */
+   @Override
    public List<String> getAllDescription();
 
    /**
-    * Removes the <code>description</code> element 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * Removes the <code>description</code> element
+    * 
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
+   @Override
    public WebResourceCollectionType<T> removeAllDescription();
 
- 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: WebResourceCollectionType ElementName: xsd:string ElementType : url-pattern
-   // MaxOccurs: -unbounded  isGeneric: true   isAttribute: false isEnum: false isDataType: true
+   // MaxOccurs: -unbounded isGeneric: true isAttribute: false isEnum: false isDataType: true
    // --------------------------------------------------------------------------------------------------------||
 
    /**
-    * Creates for all String objects representing <code>url-pattern</code> elements, 
-    * a new <code>url-pattern</code> element 
-    * @param values list of <code>url-pattern</code> objects 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * Creates for all String objects representing <code>url-pattern</code> elements, a new <code>url-pattern</code>
+    * element
+    * 
+    * @param values list of <code>url-pattern</code> objects
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
-   public WebResourceCollectionType<T> urlPattern(String ... values);
+   @Override
+   public WebResourceCollectionType<T> urlPattern(String... values);
 
    /**
     * Returns all <code>url-pattern</code> elements
-    * @return list of <code>url-pattern</code> 
+    * 
+    * @return list of <code>url-pattern</code>
     */
+   @Override
    public List<String> getAllUrlPattern();
 
    /**
-    * Removes the <code>url-pattern</code> element 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * Removes the <code>url-pattern</code> element
+    * 
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
+   @Override
    public WebResourceCollectionType<T> removeAllUrlPattern();
 
- 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: WebResourceCollectionType ElementName: xsd:token ElementType : http-method
-   // MaxOccurs: -unbounded  isGeneric: true   isAttribute: false isEnum: false isDataType: true
+   // MaxOccurs: -unbounded isGeneric: true isAttribute: false isEnum: false isDataType: true
    // --------------------------------------------------------------------------------------------------------||
 
    /**
-    * Creates for all String objects representing <code>http-method</code> elements, 
-    * a new <code>http-method</code> element 
-    * @param values list of <code>http-method</code> objects 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * Creates for all String objects representing <code>http-method</code> elements, a new <code>http-method</code>
+    * element
+    * 
+    * @param values list of <code>http-method</code> objects
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
-   public WebResourceCollectionType<T> httpMethod(String ... values);
+   @Override
+   public WebResourceCollectionType<T> httpMethod(String... values);
 
    /**
     * Returns all <code>http-method</code> elements
-    * @return list of <code>http-method</code> 
+    * 
+    * @return list of <code>http-method</code>
     */
+   @Override
    public List<String> getAllHttpMethod();
 
    /**
-    * Removes the <code>http-method</code> element 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * Removes the <code>http-method</code> element
+    * 
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
+   @Override
    public WebResourceCollectionType<T> removeAllHttpMethod();
 
- 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: WebResourceCollectionType ElementName: xsd:token ElementType : http-method-omission
-   // MaxOccurs: -unbounded  isGeneric: true   isAttribute: false isEnum: false isDataType: true
+   // MaxOccurs: -unbounded isGeneric: true isAttribute: false isEnum: false isDataType: true
    // --------------------------------------------------------------------------------------------------------||
 
    /**
-    * Creates for all String objects representing <code>http-method-omission</code> elements, 
-    * a new <code>http-method-omission</code> element 
-    * @param values list of <code>http-method-omission</code> objects 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * Creates for all String objects representing <code>http-method-omission</code> elements, a new
+    * <code>http-method-omission</code> element
+    * 
+    * @param values list of <code>http-method-omission</code> objects
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
-   public WebResourceCollectionType<T> httpMethodOmission(String ... values);
+   public WebResourceCollectionType<T> httpMethodOmission(String... values);
 
    /**
     * Returns all <code>http-method-omission</code> elements
-    * @return list of <code>http-method-omission</code> 
+    * 
+    * @return list of <code>http-method-omission</code>
     */
    public List<String> getAllHttpMethodOmission();
 
    /**
-    * Removes the <code>http-method-omission</code> element 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * Removes the <code>http-method-omission</code> element
+    * 
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
    public WebResourceCollectionType<T> removeAllHttpMethodOmission();
 
- 
    // --------------------------------------------------------------------------------------------------------||
    // ClassName: WebResourceCollectionType ElementName: xsd:ID ElementType : id
-   // MaxOccurs: -  isGeneric: true   isAttribute: true isEnum: false isDataType: true
+   // MaxOccurs: - isGeneric: true isAttribute: true isEnum: false isDataType: true
    // --------------------------------------------------------------------------------------------------------||
 
    /**
     * Sets the <code>id</code> attribute
-    * @param id the value for the attribute <code>id</code> 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * 
+    * @param id the value for the attribute <code>id</code>
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
+   @Override
    public WebResourceCollectionType<T> id(String id);
 
    /**
     * Returns the <code>id</code> attribute
-    * @return the value defined for the attribute <code>id</code> 
+    * 
+    * @return the value defined for the attribute <code>id</code>
     */
+   @Override
    public String getId();
 
    /**
-    * Removes the <code>id</code> attribute 
-    * @return the current instance of <code>WebResourceCollectionType<T></code> 
+    * Removes the <code>id</code> attribute
+    * 
+    * @return the current instance of <code>WebResourceCollectionType<T></code>
     */
+   @Override
    public WebResourceCollectionType<T> removeId();
 }

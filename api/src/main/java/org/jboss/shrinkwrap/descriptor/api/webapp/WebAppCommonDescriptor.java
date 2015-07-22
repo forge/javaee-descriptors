@@ -11,7 +11,10 @@ import java.util.List;
 
 import org.jboss.shrinkwrap.descriptor.api.Descriptor;
 import org.jboss.shrinkwrap.descriptor.api.javaee.ParamValueCommonType;
+import org.jboss.shrinkwrap.descriptor.api.javaee.SecurityRoleCommonType;
 import org.jboss.shrinkwrap.descriptor.api.webcommon.ErrorPageCommonType;
+import org.jboss.shrinkwrap.descriptor.api.webcommon.LoginConfigCommonType;
+import org.jboss.shrinkwrap.descriptor.api.webcommon.SecurityConstraintCommonType;
 import org.jboss.shrinkwrap.descriptor.api.webcommon.ServletCommonType;
 import org.jboss.shrinkwrap.descriptor.api.webcommon.ServletMappingCommonType;
 
@@ -19,7 +22,7 @@ import org.jboss.shrinkwrap.descriptor.api.webcommon.ServletMappingCommonType;
  * 
  * @author <a href="ggastald@redhat.com">George Gastaldi</a>
  */
-public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T, PARAM, SERVLET_TYPE, SERVLET_MAPPING_TYPE, ERROR_PAGE_TYPE>, PARAM extends ParamValueCommonType<PARAM>, SERVLET_TYPE extends ServletCommonType<SERVLET_TYPE>, SERVLET_MAPPING_TYPE extends ServletMappingCommonType<SERVLET_MAPPING_TYPE>, ERROR_PAGE_TYPE extends ErrorPageCommonType<T, ERROR_PAGE_TYPE>>
+public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T, PARAM, SERVLET_TYPE, SERVLET_MAPPING_TYPE, ERROR_PAGE_TYPE, SECURITY_CONSTRAINT_TYPE, LOGIN_CONFIG_TYPE, SECURITY_ROLE_TYPE>, PARAM extends ParamValueCommonType<PARAM>, SERVLET_TYPE extends ServletCommonType<SERVLET_TYPE>, SERVLET_MAPPING_TYPE extends ServletMappingCommonType<SERVLET_MAPPING_TYPE>, ERROR_PAGE_TYPE extends ErrorPageCommonType<T, ERROR_PAGE_TYPE>, SECURITY_CONSTRAINT_TYPE extends SecurityConstraintCommonType, LOGIN_CONFIG_TYPE extends LoginConfigCommonType, SECURITY_ROLE_TYPE extends SecurityRoleCommonType<T, SECURITY_ROLE_TYPE>>
          extends Descriptor
 {
    // --------------------------------------------------------------------------------------------------------||
@@ -173,4 +176,106 @@ public interface WebAppCommonDescriptor<T extends WebAppCommonDescriptor<T, PARA
     * @return the current instance of <code>ErrorPageType<WebAppDescriptor></code>
     */
    public T removeAllErrorPage();
+
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: WebAppDescriptor ElementName: javaee:security-constraintType ElementType : security-constraint
+   // MaxOccurs: -unbounded isGeneric: false isAttribute: false isEnum: false isDataType: false
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * If not already created, a new <code>security-constraint</code> element will be created and returned. Otherwise,
+    * the first existing <code>security-constraint</code> element will be returned.
+    * 
+    * @return the instance defined for the element <code>security-constraint</code>
+    */
+   public SECURITY_CONSTRAINT_TYPE getOrCreateSecurityConstraint();
+
+   /**
+    * Creates a new <code>security-constraint</code> element
+    * 
+    * @return the new created instance of <code>SecurityConstraintType<WebAppDescriptor></code>
+    */
+   public SECURITY_CONSTRAINT_TYPE createSecurityConstraint();
+
+   /**
+    * Returns all <code>security-constraint</code> elements
+    * 
+    * @return list of <code>security-constraint</code>
+    */
+   public List<SECURITY_CONSTRAINT_TYPE> getAllSecurityConstraint();
+
+   /**
+    * Removes all <code>security-constraint</code> elements
+    * 
+    * @return the current instance of <code>SecurityConstraintType<WebAppDescriptor></code>
+    */
+   public T removeAllSecurityConstraint();
+
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: WebAppDescriptor ElementName: javaee:login-configType ElementType : login-config
+   // MaxOccurs: -unbounded isGeneric: false isAttribute: false isEnum: false isDataType: false
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * If not already created, a new <code>login-config</code> element will be created and returned. Otherwise, the first
+    * existing <code>login-config</code> element will be returned.
+    * 
+    * @return the instance defined for the element <code>login-config</code>
+    */
+   public LOGIN_CONFIG_TYPE getOrCreateLoginConfig();
+
+   /**
+    * Creates a new <code>login-config</code> element
+    * 
+    * @return the new created instance of <code>LoginConfigType<WebAppDescriptor></code>
+    */
+   public LOGIN_CONFIG_TYPE createLoginConfig();
+
+   /**
+    * Returns all <code>login-config</code> elements
+    * 
+    * @return list of <code>login-config</code>
+    */
+   public List<LOGIN_CONFIG_TYPE> getAllLoginConfig();
+
+   /**
+    * Removes all <code>login-config</code> elements
+    * 
+    * @return the current instance of <code>LoginConfigType<WebAppDescriptor></code>
+    */
+   public T removeAllLoginConfig();
+
+   // --------------------------------------------------------------------------------------------------------||
+   // ClassName: WebAppDescriptor ElementName: javaee:security-roleType ElementType : security-role
+   // MaxOccurs: -unbounded isGeneric: false isAttribute: false isEnum: false isDataType: false
+   // --------------------------------------------------------------------------------------------------------||
+
+   /**
+    * If not already created, a new <code>security-role</code> element will be created and returned. Otherwise, the
+    * first existing <code>security-role</code> element will be returned.
+    * 
+    * @return the instance defined for the element <code>security-role</code>
+    */
+   public SECURITY_ROLE_TYPE getOrCreateSecurityRole();
+
+   /**
+    * Creates a new <code>security-role</code> element
+    * 
+    * @return the new created instance of <code>SecurityRoleType<WebAppDescriptor></code>
+    */
+   public SECURITY_ROLE_TYPE createSecurityRole();
+
+   /**
+    * Returns all <code>security-role</code> elements
+    * 
+    * @return list of <code>security-role</code>
+    */
+   public List<SECURITY_ROLE_TYPE> getAllSecurityRole();
+
+   /**
+    * Removes all <code>security-role</code> elements
+    * 
+    * @return the current instance of <code>SecurityRoleType<WebAppDescriptor></code>
+    */
+   public T removeAllSecurityRole();
 }
